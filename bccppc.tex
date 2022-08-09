@@ -53,7 +53,7 @@
 % Pacotes básicos 
 % ---
 %\usepackage{lmodern}			% Usa a fonte Latin Modern
-\usepackage{cfr-lm}      % Technically, lmodern does since the fonts it installs are identical to those used by cfr-lm		
+%\usepackage{cfr-lm}      % Technically, lmodern does since the fonts it installs are identical to those used by cfr-lm		
 \usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
 \usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
 \usepackage{lastpage}			% Usado pela Ficha catalográfica
@@ -91,6 +91,8 @@
   \usepackage{multirow}
   \usepackage{enumitem}
   \SetEnumitemKey{midsep}{itemsep=0pt, parsep=0pt}
+
+  \usepackage[small]{caption}
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
 % ---
@@ -274,7 +276,7 @@
     \textbf{Carga Horária Total} & 3.200 horas \\ \midrule
     \textbf{Período de Integralização}	& 4,5 anos (9 semestres) \\ \midrule
     \textbf{Período Máximo de Integralização} 	& 4,5 anos + 80\% desse tempo (16 semestres) \\ \midrule
-    \textbf{Ato Regulatório do Curso} &	Portaria Nº 9.222, de 27 de dezembro de 2018. \\ \midrule
+    \textbf{Ato Regulatório do Curso} &	Portaria nº 9.222, de 27 de dezembro de 2018. \\ \midrule
     \textbf{Mantida}	& Universidade Federal Rural de Pernambuco UFRPE \newline Pessoa Jurídica de Direito Público - Federal \newline R. Dom Manoel de Medeiros, s/n - Dois Irmãos. Recife - PE \\ \midrule
     \textbf{Corpo Diregente da UFAPE}	& Nome: Airon Aparecido de Melo \newline Cargo: Reitor \newline Telefone: 0xx(87) 3764-5505 \newline E-mail: airon.melo@ufape.edu.br \\
 \bottomrule
@@ -562,6 +564,7 @@ Este Projeto Pedagógico vem sendo construído e revisado desde o final de 2015,
 
 
 \chapter{OBJETIVOS DO CURSO}
+\label{cap_objetivos_do_curso}
 
 A Ciência da Computação é uma área de atuação bem diversa, uma vez que o profissional pode atuar em diferentes segmentos, inclusive, apenas na aplicação da computação como meio para outras áreas do conhecimento. O curso de BCC tem como objetivo formar profissionais com bases científicas e tecnológicas na área da computação, capazes de resolver problemas dos mais diferentes domínios, através de métodos e técnicas computacionais, para atuar de forma bem sucedida tanto na área acadêmica quanto no mercado de trabalho. 
 
@@ -673,6 +676,7 @@ Adaptadas de documentos propostos pela ACM/IEEE e SBC, seguem as competências e
 
 
 \chapter{CAMPO DE ATUAÇÃO PROFISSIONAL}
+\label{cap_campo_de_atuacao_profissional}
 
 Na contemporaneidade tem-se exigido respostas céleres a problemas complexos decorrentes do mundo globalizado, no qual a informação adquire um papel proeminente. Não é por acaso que o atual modo de vida das pessoas está intrinsecamente ligado ao uso das tecnologias, em especial, dos computadores. Estes podem ser encontrados nos mais variados lugares, como, por exemplo, nos lares (em TV's, eletrodomésticos, vídeo games), escolas (PC's, tablets, laboratórios), indústria (equipamentos de segurança, relógios-ponto, máquinas), comércio (caixas registradoras), dentre outros. 
 
@@ -737,159 +741,573 @@ As formas de ingresso definidas a seguir independem de vagas e não há necessid
 \end{itemize}
 
 
-\chapter{Pressupostos metodológicos}
 
-O Curso de Bacharelado em Ciência da Computação da UFRPE estabelece como
-pressupostos metodológicos: 
 
-\section{Relação teoria-prática}
 
-A relação teoria-prática pode ser entendida como eixo articulador da produção do
-conhecimento, servindo para o acadêmico vislumbrar possibilidades futuras de engajamento no mercado de
-trabalho bem como potencializando o aprendizado teórico em si. Abandona-se aqui
-a idéia de que primeiro o estudante precisa dominar a teoria para depois
-entender a prática e a realidade, resultando em um aprendizado memorístico.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter Organização Curricular
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Busca-se a construção do conhecimento de forma ampla, muitas vezes integrando,
-numa mesma situação teoria e prática. Além disso, sustenta-se a idéia de que
-relacionar teoria e prática não consiste em atividade exclusiva de sala de aula,
-devendo-se proporcionar ao acadêmico, desde o primeiro semestre, atividades
-incluídas na carga horária semanal das diferentes disciplinas que compõem a
-matriz curricular bem como atividades complementares que contribuam
-indiretamente à compreensão do Curso e de sua contribuição na sociedade como um
-todo. Desta forma, além das atividades apresentadas na matriz curricular, as
-atividades complementares definidas para os acadêmicos do Curso de Bacharelado
-em Ciência da Computação da UFRPE servirão de meio para atingir a desejada
-capacidade de relacionar teoria e prática. 
 
-\section{Interdisciplinaridade}
+\chapter{ORGANIZAÇÃO CURRICULAR}
 
-Considera-se que para se atingir o perfil de Bacharel em Ciência da Computação com sólida
-formação generalista necessita-se a realização de estudos disciplinares que
-permitam a sistematização e o aprofundamento de conceitos e relações, cujo
-domínio é imprescindível na construção da competência profissional desejada. No
-entanto, sabe-se que a construção de um conhecimento sólido transpõe o conteúdo
-de uma única disciplina, necessitando que o acadêmico primeiramente tenha
-conhecimento da contextualização da disciplina específica no todo e que, num
-segundo momento, desenvolva atividades que necessitem dos conteúdos expostos em
-várias disciplinas, tornando possível aplicar conhecimentos adquiridos ao longo
-de todo o Curso no desenvolvimento de uma atividade específica. Desta forma,
-além de aprofundar conhecimentos disciplinares, a matriz curricular contempla
-estudos e atividades interdisciplinares, propostas ao longo do curso por
-diferentes disciplinas. Além das atividades interdisciplinares formais, várias
-atividades são desenvolvidas por disciplinas afins concomitantemente,
-proporcionando o aprendizado não intencional e aplicação de conceitos
-complementares, transcendendo, desta forma, os limites de sala de aula. 
+Levando em consideração as orientações contidas na Resolução CNE/CES nº 5 de 11/2016, que institui as Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação, o currículo do curso de Bacharelado em Ciência da Computação apresenta a  estrutura conforme Quadro~\ref{quadro:organizacao-curricular-do-curso}, abaixo:
 
-\section{Pesquisa enquanto princípio educativo}
+\begin{center}
+    \begin{scriptsize}
+      \begin{longtable}{@{}lp{10cm}}
+        \caption{\label{quadro:organizacao-curricular-do-curso}Organização curricular do curso.}\\
+      \toprule
+      \textbf{Núcleo de Conhecimento} & \textbf{Componentes Curriculares} \\ 
+      \midrule
+        Conteúdos Básicos 
+                                & CÁLCULO I \\
+                                & GEOMETRIA ANALÍTICA \\
+                                & LÓGICA MATEMÁTICA \\
+                                & CÁLCULO II \\
+                                & FÍSICA PARA COMPUTAÇÃO \\ 
+                                & ÁLGEBRA LINEAR I \\
+                                & PROBABILIDADE E ESTATÍSTICA \\
+                                & METODOLOGIA CIENTÍFICA \\
+                                & MATEMÁTICA DISCRETA PARA COMPUTAÇÃO \\
+                                & INGLÊS  \\
+                                \midrule
+        Conteúdos Tecnológicos
+                                & INTRODUÇÃO À PROGRAMAÇÃO \\
+                                & INTRODUÇÃO À COMPUTAÇÃO C \\
+                                & ALGORITMOS E ESTRUTURA DE DADOS I\\
+                                & PROGRAMAÇÃO ORIENTADA A OBJETOS \\
+                                & SISTEMAS DIGITAIS \\
+                                & ALGORITMOS E ESTRUTURA DE DADOS II \\
+                                & ARQUITETURA DE COMPUTADORES \\
+                                & PROJETO E ANÁLISE DE ALGORITMOS \\
+                                & ENGENHARIA DE SOFTWARE \\
+                                & PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO \\
+                                & BANCO DE DADOS \\
+                                & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\
+                                & SISTEMAS OPERACIONAIS \\
+                                & INTELIGÊNCIA ARTIFICIAL \\
+                                & TEORIA DA COMPUTAÇÃO \\
+                                & REDES DE COMPUTADORES \\
+                                & COMPUTAÇÃO GRÁFICA \\
+                                & COMPILADORES \\
+                                & RECONHECIMENTO DE PADRÕES \\
+                                & EMPREENDEDORISMO \\
+                                & SISTEMAS DISTRIBUÍDOS \\
+                                & PROJETO DE DESENVOLVIMENTO DE SOFTWARE \\
+                                & INTERAÇÃO HUMANO-COMPUTADOR \\
+                                & COMPUTADORES E SOCIEDADE \\
+                                & ESTÁGIO SUPERVISIONADO OBRIGATÓRIO \\
+                                & TRABALHO DE CONCLUSÃO DE CURSO\\
+      \bottomrule
+      \end{longtable}
+    \end{scriptsize}      
+  \end{center}
 
-A pesquisa, compreendida como qprocesso formador, é um elemento constitutivo e
-fundamental do processo de aprender a aprender aprendendo e, portanto,
-prevalente em vários momentos curriculares. A familiaridade com a teoria só pode
-se dar por meio do conhecimento das pesquisas que lhe dão sustentação. De modo
-semelhante, a atuação prática possui uma dimensão investigativa e constitui uma
-forma não de simples reprodução mas de criação ou, pelo menos, de recriação do
-conhecimento. A familiaridade com os procedimentos de investigação e com o
-processo histórico de produção e disseminação de conhecimentos apresenta grande
-relevância. No Curso, a pesquisa se constitui em instrumento de ensino e em
-conteúdo de aprendizagem na formação: para que a atitude de investigação e a
-relação de autonomia se concretizem, o bacharel em ciência da computação
-necessita conhecer e saber usar os procedimentos de investigação científica. Tal
-atividade é proporcionada aos acadêmicos através dos Programas de Iniciação
-Científica e Programa de Estágios Voluntários (atividades complementares) e do
-Trabalho de Conclusão de Curso (atividade obrigatória).
+  A carga horária total do curso de Bacharelado em Ciência da Computação tem um total de 3.200 (três mil e duzentas) horas,  distribuídas entre componentes curriculares obrigatórios e optativos, em 4,5 (quatro vírgula cinco) anos, em 9 (nove) semestres (ou períodos). Os conteúdos de formação serão apresentados em componentes curriculares com carga horária variando entre 30 (trinta) e 60 (sessenta) horas para as disciplinas, 300 (trezentas) horas para ESO e 180 (cento e oitenta) horas para TCC. Cada hora-aula corresponde a 60 (sessenta) minutos, conforme expresso na Resolução CEPE/UFRPE nº~220/2016 e demonstrado no Quadro~\ref{quadro:distribuicao-nucleos-formacao-e-ch}, abaixo.
 
-\section{Integração com pesquisa e extensão}
+  \begin{center}
+    
+    \begin{scriptsize}
+      \begin{longtable}{p{4cm}p{1.5cm}p{2cm}p{3cm}}
+        \caption{\label{quadro:distribuicao-nucleos-formacao-e-ch}Distribuição dos núcleos de formação e carga horária.}\\
+      \toprule
+      \multicolumn{4}{c}{\textbf{Bacharelado em Ciência da Computação}}\\ \midrule
+      \multicolumn{2}{l}{\textbf{Núcleo}} & \multicolumn{1}{c}{\textbf{Carga Horária (h)}} & \multicolumn{1}{c}{\textbf{\%}}\\
+      \midrule
+      Básicos & & \multicolumn{1}{c}{540} & \multicolumn{1}{r}{16,9}\\ \midrule
+      \multirow{3}{3cm}{Tecnológico / Profissionalizante} & Disciplinas & \multicolumn{1}{c}{1.440} & \multicolumn{1}{r}{45,0}\\ \cline{2-4}
+      & TCC & \multicolumn{1}{c}{180} & \multicolumn{1}{r}{5,6}\\ \cline{2-4}
+      & ESO & \multicolumn{1}{c}{300} & \multicolumn{1}{r}{9,4}\\ \midrule
+      \multicolumn{2}{l}{Componentes optativos} & \multicolumn{1}{c}{420} & \multicolumn{1}{r}{13,1}\\ \midrule
+      \multicolumn{2}{l}{Atividades curriculares complementares} & \multicolumn{1}{c}{320} & \multicolumn{1}{r}{10,0}\\ \midrule
+      \multicolumn{2}{l}{Total} & \multicolumn{1}{c}{3.200} & \multicolumn{1}{r}{100,0}\\
+  \bottomrule
+  \end{longtable}
+  \end{scriptsize}      
+  \end{center}
+  
+  Para obtenção do título em Bacharel em Ciência da Computação o aluno deverá cumprir uma carga horária total de 3.200 (três mil e duzentas) horas, entre disciplinas, atividades curriculares complementares, trabalho de conclusão de curso e estágio obrigatório supervisionado. O discente terá a possibilidade de cursar disciplinas do ciclo básico e disciplinas do ciclo tecnológico/profissionalizante, podendo ainda escolher em qual área deseja se aprofundar, uma vez que pode escolher entre as disciplinas optativas que necessita cursar.
+  
+  As disciplinas de um mesmo período letivo ou de períodos anteriores, no qual o aluno tenha cursado, devem se articular em torno de um ou mais projetos de natureza interdisciplinar, buscando otimizar o processo de avaliação nas disciplinas e uma melhor adequação do esforço para resolução de problemas por parte dos discentes, uma vez que assim eles concentram seus esforços num único projeto que contempla aquelas disciplinas que naturalmente interagem. As disciplinas, em suas atividades e projetos, são baseadas na metodologia de Aprendizagem Baseada em Projetos (\textit{Project Based Learning} (PBL) [Barrows, 1986]). Além do diálogo entre as disciplinas, o curso estará atento à tentativa de promoção de uma educação inclusiva, adaptando os conteúdos programáticos previstos em cada componente curricular em função das necessidades de aprendizagem dos estudantes.
+  
+  Algumas disciplinas serão ofertadas de forma semipresencial, atendendo as exigências do MEC do Art. 7º, da Portaria nº 1.428/2018, cujos métodos e práticas de ensino-aprendizagem incorporarão Tecnologias de Informação e Comunicação - TICs para a realização dos objetivos pedagógicos, e pode ser observado no Capítulo~\ref{cap_metodologia_e_avaliacao} Metodologia e Avaliação.
+  
+  Com relação a carga horária permitida para as disciplinas na modalidade semipresencial, atualmente o curso atende o percentual máximo de 20\% (vinte por cento) da carga horária total do curso ou das disciplinas no formato EaD, consoante a Portaria MEC nº 1.134/2016 e Resolução CEPE/UFRPE nº 220/2016. Porém, algumas disciplinas poderão ser ofertadas com até o percentual de 20\% (vinte por cento) na modalidade a distância, conforme a portaria nº 4.059/2004 do MEC, desde que sejam apresentados os programas de disciplinas, métodos, formas de avaliação e acompanhamento e a justificativa.
+  
+  O desenvolvimento de atividades práticas e visitas técnicas a organizações públicas, privadas e não governamentais, permitirá aos estudantes o contato com demandas e situações próprias da profissão. Esta, também incluirá, como etapa integrante da graduação, o ESO, sob a orientação direta da instituição de ensino, conforme disposto no Capítulo~\ref{cap_eso} Estágio Supervisionado Obrigatório. A carga horária do ESO será de 300 (trezentas) horas. Será obrigatória, ainda, a disciplina de TCC com 120 (cento e vinte) horas. A participação no Exame Nacional de Desempenho de Estudantes (ENADE) é requisito indispensável para a integralização do curso, bem como a integralização de 420 (quatrocentas e vinte) horas de disciplinas optativas.
+  
+  \section{Matriz curricular}
+  
+  A matriz curricular busca atender os objetivos traçados e o perfil desejado do egresso em Ciência da Computação. Os componentes curriculares que serão ofertados no bacharelado estão distribuídos considerando a seguinte tipologia: obrigatórios (que corresponde àquelas que o aluno deve obrigatoriamente cursar ao longo dos semestres) e optativos (dentre o rol de disciplinas ofertadas, o aluno escolhe cursar aquelas de seu interesse). No Quadro~\ref{quadro:matriz-curricular-do-curso}, a seguir, são expostos os períodos nos quais estes componentes estão dispostos no curso.
+  
+  \begin{center}
+    
+    \begin{tiny}
+      \begin{longtable}{cp{4.5cm}cccp{2.8cm}p{2.8cm}}
+        \caption{\label{quadro:matriz-curricular-do-curso}Matriz Curricular do Curso de  Ciência da Computação.}\\
+      \toprule
+      \textbf{Per.} & \textbf{Disciplina} & \multicolumn{3}{c}{\textbf{Carga Horária}} & \textbf{Pré-requisitos} & \textbf{Correquisitos}\\
+      & & \textbf{Teó.} & \textbf{Prát.} & \textbf{Total} & & \\
+      \midrule
+      1 
+        & MATM3030 CÁLCULO I & 60 & 0 & 60 & & \\ \cline{2-7}
+        & MATM3021 GEOMETRIA ANALÍTICA & 60 & 0 & 60 & & \\ \cline{2-7}
+        & MATM3008 LÓGICA MATEMÁTICA & 60 & 0 & 60  & &\\ \cline{2-7}
+        & CCMP3057 INTRODUÇÃO À PROGRAMAÇÃO & 45 & 45 & 90  & &\\ \cline{2-7}
+        & CCMP3056 INTRODUÇÃO À COMPUTAÇÃO C & 30 & 0 & 30  & &\\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+      2 
+        & MATM3006 CÁLCULO II & 60 & 0 & 60 & CÁLCULO I & \\ \cline{2-7}   
+        & FISC3004 FÍSICA PARA COMPUTAÇÃO & 60 & 0 & 60 & CÁLCULO I & \\ \cline{2-7}
+        & ÁLGEBRA LINEAR I & 60 & 0 & 60 & GEOMETRIA ANALÍTICA & \\ \cline{2-7}
+        & CCMP3006 ALGORITMOS E ESTRUTURA DE DADOS I & 30 & 30 & 60 & INT. À PROGRAMAÇÃO & \\  \cline{2-7}
+        & CCMP3017 PROGRAMAÇÃO ORIENTADA A OBJETOS & 30 & 30 & 60 & INT. À PROGRAMAÇÃO & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    3 
+        & PRBE3006 PROBABILIDADE E ESTATÍSTICA & 60 & 0 & 60 & CÁLCULO II & \\ \cline{2-7}
+        & CCMP3058 SISTEMAS DIGITAIS & 45 & 15 & 60 & & FÍSICA PARA COMPUTAÇÃO \\ \cline{2-7}
+        & CIEN3005 METODOLOGIA CIENTÍFICA & 30 & 0 & 30 & & \\ \cline{2-7}
+        & MATEMÁTICA DISCRETA PARA COMPUTAÇÃO & 60 & 0 & 60 & LÓGICA MATEMÁTICA & \\ \cline{2-7}
+        & CCMP3016 ALGORITMOS E ESTRUTURA DE DADOS II & 30 & 30 & 60 & ALG. E EST. DE DADOS I & \\ \cline{2-7}
+        & LETR3020 INGLÊS & 30 & 0 & 30  & &\\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    4 
+        & CCMP3010 ARQUITETURA DE COMPUTADORES & 45 & 15 & 60 & SISTEMAS DIGITAIS & \\ \cline{2-7}
+        & CCMP3064 PROJETO E ANÁLISE DE ALGORITMOS & 30 & 30 & 60 & ALGORITMOS E ESTRUTURA DE DADOS 2 & \\ \cline{2-7}
+        & CCMP3018 ENGENHARIA DE SOFTWARE & 30 & 30 & 60 & PROGRAMAÇÃO ORIENTADA A OBJETOS & \\ \cline{2-7}
+        & CCMP3065 PARADIGMAS DE LINGUAGENS DE PROGRAMAÇÃO & 45 & 15 & 60 & PROGRAMAÇÃO ORIENTADA A OBJETOS; \newline ALGORITMOS E ESTRUTURA DE DADOS I & \\ \cline{2-7}
+        & CCMP3066 BANCO DE DADOS & 30 & 30 & 60 & MATEMÁTICA DISCRETA & \\ \cline{2-7}
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    5 
+        & CCMP3067 SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS & 60 & 0 & 60 & & \\ \cline{2-7}
+        & CCMP3009 SISTEMAS OPERACIONAIS & 45 & 15 & 60 & & \\ \cline{2-7}
+        & CCMP3014 INTELIGÊNCIA ARTIFICIAL & 30 & 30 & 60 & ALGORITMOS E ESTRUTURAS DE DADOS II & \\ \cline{2-7}
+        & CCMP3068 TEORIA DA COMPUTAÇÃO & 60 & 0 & 60 & MATEMÁTICA DISCRETA & \\ \cline{2-7}
+        & CCMP3023 REDES DE COMPUTADORES & 30 & 30 & 60 & PROGRAMAÇÃO ORIENTADA A OBJETOS & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    6 
+        & CCMP3019 COMPUTAÇÃO GRÁFICA & 30 & 30 & 60 & INTRODUÇÃO À PROGRAMAÇÃO; \newline ÁLGEBRA LINEAR & \\ \cline{2-7}
+        & CCMP3020 COMPILADORES & 45 & 15 & 60 & TEORIA DA COMPUTAÇÃO; \newline ALGORITMOS E ESTRUTURAS DE DADOS II & \\ \cline{2-7}
+        & RECONHECIMENTO DE PADRÕES & 60 & 0 & 60 &  & \\ \cline{2-7}
+        & EMPREENDEDORISMO & 60 & 0 & 60 & & \\ \cline{2-7}
+        & CCMP3021 SISTEMAS DISTRIBUÍDOS & 30 & 30 & 60 & REDES DE COMPUTADORES & SISTEMAS OPERACIONAIS \\ \midrule 
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    7 
+        & PROJETO DE DESENVOLVIMENTO DE SOFTWARE & 30 & 30 & 60 & ENGENHARIA DE SOFTWARE; \newline BANCO DE DADOS; \newline EMPREENDEDORISMO; \newline INTERFACE HUMANO COMPUTADOR & \\ \cline{2-7}
+        & CCMP3070 INTERAÇÃO HU\-MA\-NO-COM\-PU\-TA\-DOR & 30 & 30 & 60 & & \\ \cline{2-7}
+        & CCMP3071 COMPUTADORES E SOCIEDADE & 15 & 15 & 30  & &\\ \cline{2-7}
+        & OPTATIVA I & & & 60 & & \\ \cline{2-7}
+        & OPTATIVA II & & & 60 & & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    8
+        & OPTATIVA III & & & 60 & & \\ \cline{2-7}
+        & OPTATIVA IV & & & 60 & & \\ \cline{2-7}
+        & OPTATIVA V & & & 60 & & \\ \cline{2-7}
+        & OPTATIVA VI & & & 60 & & \\ \cline{2-7}
+        & OPTATIVA VII & & & 60 & & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{300} & & \\ \midrule
+    9   
+        & CCMP3061 ESTÁGIO SUPERVISIONADO OBRIGATÓRIO & 0 & 300 & 300 & REDES DE COMPUTADORES; \newline ENGENHARIA DE SOFTWARE; \newline BANCO DE DADOS & \\ \cline{2-7}
+        & CCMP3063 TRABALHO DE CONCLUSÃO DE CURSO - CIÊNCIA DA COMPUTAÇÃO & 0 & 180 & 180 & & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Subtotal}} & \textbf{480} & & \\ \midrule
+        & \multicolumn{3}{l}{\textbf{Carga Horária Total}} & \textbf{2.880} & & \\
+      \bottomrule
+  \end{longtable}
+  \end{tiny}      
+  \end{center}
+  
+  \subsection{Síntese dos componentes curriculares optativos}
+  
+  O elenco de componentes curriculares optativos previstos para o curso serão detalhados no Quadro~\ref{quadro:sintese-componentes-curriculares-optativos}, com a indicação de suas cargas horárias e de seus respectivos pré-requisitos, nos quais os discentes deverão cursar no mínimo 300 horas em disciplinas optativas.
+  
+  \begin{center}
+    
+    \begin{tiny}
+      \begin{longtable}{p{2.5cm}p{5.5cm}cccp{3.3cm}}
+        \caption{\label{quadro:sintese-componentes-curriculares-optativos}Síntese dos componentes curriculares optativos.}\\
+      \toprule
+      \multicolumn{6}{c}{\textbf{Grupo/Área de Conhecimento}} \\ \midrule
+      \textbf{Área} & \textbf{Disciplina} & \multicolumn{3}{c}{\textbf{Carga Horária}} & \textbf{Pré-requisitos} \\
+      & & \textbf{Teó.} & \textbf{Prát.} & \textbf{Total} & \\
+      \midrule
+    Banco de Dados & ADMINISTRAÇÃO DE BANCO DE DADOS & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & CCMP3091 INTEGRAÇÃO DE DADOS E DATA WAREHOUSE & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & MINERAÇÃO DE DADOS & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & MODELAGEM CONCEITUAL DE DADOS & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & SISTEMAS DE INFORMAÇÃO GEOGRÁFICAS & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & PESQUISA EM GERENCIAMENTO DE DADOS & 30 & 30 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & UAG00169 TÓPICOS ESPECIAIS EM BANCO DE DADOS & 30 & 30 & 30 & BANCO DE DADOS \\ \midrule
+    Engenharia da Computação & UAG00304 AVALIAÇÃO DE DESEMPENHO DE SISTEMAS & 30 & 30 & 60 & ALGORITMOS E ESTRUTURAS DE DADOS II \\ \cline{2-6}
+      & PROJETO DE SISTEMAS EMBARCADOS & 30 & 30 & 60 & ARQUITETURA E ORGANIZAÇÃO DE COMPUTADORES \\ \cline{2-6}
+      & UAG00043 PROTOTIPAÇÃO DE CIRCUITOS DIGITAIS & 30 & 30 & 60 & SISTEMAS DIGITAIS \\ \cline{2-6}
+      & SISTEMAS DE TEMPO REAL & 30 & 30 & 60 & SISTEMAS OPERACIONAIS \\ \midrule
+      Engenharia de Software & UAG00031 TESTE DE SOFTWARE & 30 & 30 & 60 & ENGENHARIA DE SOFTWARE \\ \cline{2-6}
+      & ESPECIFICAÇÃO FORMAL DE SOFTWARE & 30 & 30 & 60 & MATEMÁTICA DISCRETA \\ \cline{2-6}
+      & PROGRAMAÇÃO COMPETITIVA & 20 & 40 & 60 & - \\ \cline{2-6}
+      & PROGRAMAÇÃO WEB & 30 & 30 & 60 & - \\ \cline{2-6}
+      & PROGRAMAÇÃO ORIENTADA A OBJETOS II & 30 & 30 & 60 & PROGRAMAÇÃO ORIENTADA À OBJETOS \\ \cline{2-6}
+      & CCMP3078 DESENVOLVIMENTO DE APLICAÇÕES MÓVEIS & 30 & 30 & 60 & ENGENHARIA DE SOFTWARE \\ \cline{2-6}
+      & CCMP3051 DESENVOLVIMENTO DISTRIBUÍDO DE SOFTWARE & 45 & 15 & 60 & ENGENHARIA DE SOFTWARE \\ \cline{2-6}
+      & ESTIMATIVAS E MEDIÇÃO DE SOFTWARE & 15 & 15 & 30 & ENGENHARIA DE SOFTWARE \\ \cline{2-6}
+      & METODOLOGIAS ÁGEIS & 45 & 15 & 60 & ENGENHARIA DE SOFTWARE \\ \cline{2-6}
+      & CCMP3080 TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE & 60 & 0 & 60 & ENGENHARIA DE SOFTWARE \\ \midrule
+    Inteligência Computacional & ALGORITMOS DE APRENDIZAGEM DE MÁQUINA & 15 & 15 & 30 & - \\ \cline{2-6}
+      & MÁQUINA DE VETORES DE SUPORTE & 15 & 15 & 30 & - \\ \cline{2-6}
+      & PROJETO EM APRENDIZAGEM DE MÁQUINA & 15 & 75 & 90 & - \\ \cline{2-6}
+      & RECONHECIMENTO DE PADRÕES & 45 & 15 & 60 & APRENDIZAGEM DE MÁQUINA \\ \cline{2-6}
+      & REDUÇÃO DE DIMENSIONALIDADE EM APRENDIZAGEM DE MÁQUINA & 15 & 45 & 60 & - \\ \cline{2-6}
+      & CCMP3086 TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL & 30 & 30 & 60 & INTELIGÊNCIA ARTIFICIAL \\ \cline{2-6}
+      & REDES NEURAIS ARTIFICIAIS & 15 & 45 & 60 & - \\ \cline{2-6}
+      & APRENDIZAGEM DE MÁQUINA BAYESIANA & 15 & 15 & 30 & - \\ \cline{2-6}
+      & UAG00011 VISÃO COMPUTACIONAL & 45 & 15 & 60 & PROCESSAMENTO DIGITAL DE IMAGENS \\ \midrule
+    Matemática Computacional & ÁLGEBRA LINEAR II & 60 & 0 & 60 & ÁLGEBRA LINEAR I \\ \cline{2-6}
+      & CÁLCULO III & 60 & 0 & 60 & CÁLCULO II \\ \cline{2-6}
+      & CÁLCULO IV & 60 & 0 & 60 & CÁLCULO III \\ \cline{2-6}
+      & CÁLCULO LAMBDA & 60 & 0 & 60 & MATEMÁTICA DISCRETA \\ \cline{2-6}
+      & INTRODUÇÃO À COMPUTAÇÃO QU NTICA & 30 & 30 & 60 & TEORIA DA COMPUTAÇÃO \\ \cline{2-6}
+      & OTIMIZAÇÃO COMBINATÓRIA (META-HEURÍSTICAS) & 30 & 30 & 60 & PROJETO DE ANÁLISE DE ALGORITMOS \\ \cline{2-6}
+      & PESQUISA OPERACIONAL & 30 & 30 & 60 & PROJETO DE ANÁLISE DE ALGORITMOS \\ \cline{2-6}
+      & TEORIA DOS NÚMEROS E CRIPTOGRAFIA & 60 & 0 & 60 & MATEMÁTICA DISCRETA \\ \cline{2-6}
+      & MATM3017 CÁLCULO NUMÉRICO E COMPUTACIONAL & 60 & 0 & 60 & CÁLCULO II \\ \cline{2-6}
+      & MÉTODOS COMPUTACIONAIS DE OTIMIZAÇÃO & 60 & 0 & 60 & CÁLCULO II \\ \cline{2-6}
+      & INTRODUÇÃO À CRIPTOGRAFIA E SEGURANÇA DA INFORMAÇÃO & 30 & 30 & 60 & - \\ \cline{2-6}
+      & TÓPICOS EM MODELAGEM MATEMÁTICA CONTINUA & 60 & 0 & 60 & CÁLCULO II \\ \cline{2-6}
+      & ÁLGEBRA LINEAR COMPUTACIONAL & 60 & 0 & 60 & ÁLGEBRA LINEAR \\ \midrule
+    Mídia e Interação 
+    & PROCESSAMENTO DIGITAL DE IMAGEM & 30 & 30 & 60 & ALGORITMOS E ESTRUTURA DE DADOS II \\ \cline{2-6}
+    & REALIDADE VIRTUAL E AUMENTADA & 30 & 30 & 60 & COMPUTAÇÃO GRÁFICA \\ \cline{2-6}
+      & CCMP3076 TÓPICOS ESPECIAIS EM PROCESSAMENTO DE SINAIS & 30 & 30 & 60 & CÁLCULO II E ÁLGEBRA LINEAR \\ \cline{2-6}
+      & CCMP3088 TÓPICOS ESPECIAIS EM MÍDIA E INTERAÇÃO & 30 & 30 & 60 & - \\ \midrule
+    Redes e Sistemas Distribuídos & GERENCIAMENTO DE REDES DE COMPUTADORES & 30 & 30 & 60 & REDES DE COMPUTADORES \\ \cline{2-6}
+      & INFRAESTRUTURA DE REDES E CABEAMENTO ESTRUTURADO & 30 & 30 & 60 & REDES DE COMPUTADORES \\ \cline{2-6}
+      & TÓPICOS ESPECIAIS EM REDES DE COMPUTADORES E SISTEMAS DISTRIBUÍDOS & 30 & 30 & 60 & SISTEMAS DISTRIBUÍDOS \\ \cline{2-6}
+      & CCMP3079 SEGURANÇA DE REDES DE COMPUTADORES & 30 & 30 & 60 & REDES DE COMPUTADORES \\ \cline{2-6}
+      & MODELAGEM DE DEPENDABILIDADE  & 30 & 30 & 60 & PROBABILIDADE E ESTATÍSTICA \\ \midrule
+    Informática na Educação & DESENVOLVIMENTO DE SOFTWARE EDUCACIONAL & 30 & 30 & 60 & - \\ \cline{2-6}
+      & EDUC3048 INFORMÁTICA NA EDUCAÇÃO & 30 & 30 & 60 & - \\ \cline{2-6}
+      & TECNOLOGIAS ASSISTIVAS & 30 & 30 & 60 & - \\ \cline{2-6}
+      & TECNOLOGIAS, COGNIÇÃO E APRENDIZAGEM & 30 & 30 & 60 & - \\ \midrule
+    Tecnologia da Informação & UAG00080 GESTÃO DA TECNOLOGIA DA INFORMAÇÃO & 60 & 0 & 60 & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\ \cline{2-6}
+      & CCMP3077 GESTÃO DE SERVIÇOS EM TI & 60 & 0 & 60 & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\ \cline{2-6}
+      & UAG00079 GOVERNANÇA EM TECNOLOGIA DA INFORMAÇÃO & 60 & 0 & 60 & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\ \cline{2-6}
+      & CCMP3083 TÓPICOS ESPECIAIS EM GESTÃO DE PROJETOS & 60 & 0 & 60 & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\ \cline{2-6}
+      & UAG00300 FUNDAMENTOS EM CIÊNCIA DE DADOS & 60 & 0 & 60 & BANCO DE DADOS \\ \cline{2-6}
+      & UAG00300 GESTÃO DE PROCESSOS DE NEGÓCIO & 60 & 0 & 60 & SISTEMAS DE INFORMAÇÃO E TECNOLOGIAS \\ \midrule
+    Libras & EDUC3090 LIBRAS & 30 & 30 & 60 & - \\ \midrule
+    Educação das Relações Étnico\-Racial & EDUC3092  EDUCAÇÃO DAS RELAÇÕES ÉTNICO-RACIAIS & 60 & 0 & 60 & - \\
+  \bottomrule
+  \end{longtable}
+  \end{tiny}      
+  \end{center}
+  
+  \subsection{Síntese da carga horária total do curso}
+  
+  No Quadro~\ref{quadro:sintese-carga-horaria-total-do-curso} abaixo, observa-se a síntese da carga horária total do curso.
+  
+  
+  \begin{center}
+    
+    \begin{tiny}
+      \begin{longtable}{lccc}
+        \caption{\label{quadro:sintese-carga-horaria-total-do-curso}Síntese da carga horária total do curso.}\\
+      \toprule
+      \textbf{Detalhamento da CH} & \textbf{Carga Horária} & \textbf{Créditos} & \textbf{Percentual da CH total}\\
+      \midrule
+      Disciplinas Obrigatórias & 1.980 & 132 & 61,9\% \\ \midrule
+      Disciplinas Optativas & 420 & 28 & 13,1\% \\ \midrule
+      ESO & 300 & 20 & 9,4\% \\ \midrule
+      TCC & 180 & 12 & 5,6\% \\ \midrule
+      Atividades Curriculares Complementares & 320 & 21 & 10,0\% \\ \midrule
+      Total & 3.200 & 213 & 100,0\% \\
+  \bottomrule
+  \end{longtable}
+  \end{tiny}      
+  \end{center}
+  
+  \section{Representação gráfica da matriz curricular}
+  
+  Segue a representação gráfica da matriz curricular do curso de BCC, de forma que é possível entender e visualizar melhor o sequenciamento lógico entre as disciplinas e seus períodos.
+  
+  \begin{figure}[!htb]
+    \centering
+    \caption{\label{fig:matriz-curricular}Matriz Curricular.}
+    
+    \includegraphics[width=\textwidth]{./images/matriz6.eps}
+  \end{figure}
+  
 
-O Projeto Pedagógico do Bacharelado em  Ciência da Computação prevê a inserção
-dos alunos em projetos de pesquisa e extensão  universitária na região onde se
-encontra o curso. Além disso, prevê a modernização  do processo empreendedor em
-Tecnologias da Informação e Comunicação (TIC) da  região no qual está inserido.
 
-Para acelerar este processo nas suas diversas Unidades  Acadêmicas, a UFRPE
-deverá prover mecanismos de intercâmbio entre seus Campi, possibilitando que
-tanto alunos quanto docentes participem de editais de  fomento e bolsas de apoio
-tecnológico e apoio social. Também deverá modernizar  seu regimento e
-legislações internas para possibilitar que docentes e  discentes das várias
-unidades acadêmicas da UFRPE possam usufruir dos mesmos direitos e deveres.
 
-\section{Ensino problematizado e contextualizado}
 
-Entende-se que o sucesso do processo ensino-aprendizagem está
-relacionado diretamente à capacidade de colocar de forma ampla o problema a ser
-resolvido e contextualizá-lo no âmbito do curso como um todo, assegurando, para
-garantir tal objetivo, a indissociabilidade entre ensino, pesquisa e extensão. 
+  \section{Quadro de Equivalência}
+  
+  Diante da necessidade de adequar o perfil curricular do curso de Bacharelado em Ciência da Computação, os alunos que ingressarão no Curso a partir do semestre letivo de 2021.1 deverão compulsoriamente seguir a nova Matriz Curricular. Já os alunos que ingressaram em períodos anteriores ao semestre supracitado poderão, desde que atendam aos critérios definidos pelo Colegiado de Coordenação Didática - CCD do Curso, optar por seguir a antiga matriz curricular ou fazer a transição para a nova, buscando a equivalência de disciplinas entre as duas matrizes, conforme se mostra os Quadros~\ref{quadro:disciplinas-obrigatorias-equivalentes} e \ref{quadro:disciplinas-optativas-equivalentes}. 
+  
+  \begin{center}
+    
+    \begin{tiny}
+      \begin{longtable}{p{6.5cm}cp{6.5cm}c}
+        \caption{\label{quadro:disciplinas-obrigatorias-equivalentes}Disciplinas Obrigatórias Equivalentes.}\\
+      \toprule
+      \textbf{PPC2013 Perfil: 2.0.0} & \textbf{CH} & \textbf{PPC2022 Perfil: 2.1.0} & \textbf{CH}\\
+      \midrule
+      MATM3031 CÁLCULO PARA COMPUTAÇÃO I  & 60 & CÁLCULO I & 60 \\ \midrule
+      EMPREENDIMENTOS EM TIC & 60 & BCC00003 EMPREENDEDORISMO & 60 \\ \midrule
+      MATM3032 CÁLCULO PARA COMPUTAÇÃO II  & 60 & CÁLCULO II & 60 \\ \midrule
+      MATM3019 ÁLGEBRA LINEAR  & 60 & ÁLGEBRA LINEAR I & 60 \\ \midrule
+      CCMP3059 MATEMÁTICA DISCRETA  & 60 & MATEMÁTICA DISCRETA PARA COMPUTAÇÃO & 60 \\ \midrule
+      CCMP3066 BANCO DE DADOS I & 60 & BANCO DE DADOS & 60 \\ \midrule
+      CCMP3069 PROJETO DE DESENVOLVIMENTO & 90 & PROJETO DE DESENVOLVIMENTO DE SOFTWARE & 60 \\
+  \bottomrule
+  \end{longtable}
+  \end{tiny}
+  \end{center}
+  
+  É importante salientar que o estudante que optar em realizar o processo de migração de perfil curricular do curso, não poderá solicitar retorno para o perfil de origem (antigo). Como pode ser observado pelo quadro de equivalências entre componentes curriculares das diferentes matrizes, o aluno que migrar para o novo perfil curricular poderá aproveitar as disciplinas já cursadas, incluindo as disciplinas optativas de acordo com o Quadro 9 abaixo.
+  
+  \begin{center}
+    
+    \begin{tiny}
+      \begin{longtable}{p{2cm}p{5.4cm}cp{5.4cm}c}
+        \caption{\label{quadro:disciplinas-optativas-equivalentes}Disciplinas Optativas Equivalentes.}\\
+      \toprule
+      \textbf{Área} & \textbf{PPC2013 Perfil: 2.0.0} & \textbf{CH} & \textbf{PPC2022 Perfil: 2.1.0} & \textbf{CH}\\
+      \midrule
+    Banco de Dados & - & & ADMINISTRAÇÃO DE BANCO DE DADOS & 60 \\ \cline{2-5}
+      & CCMP3091 INTEGRAÇÃO DE DADOS E DATA WAREHOUSE & 60 & INTEGRAÇÃO DE DADOS E DATA WAREHOUSE & 60 \\ \cline{2-5}
+      & - & & MINERAÇÃO DE DADOS & 60 \\ \cline{2-5}
+      & - & & MODELAGEM CONCEITUAL DE DADOS & 60 \\ \cline{2-5}
+      & - & & SISTEMAS DE INFORMAÇÃO GEOGRÁFICAS & 60 \\ \cline{2-5}
+      & UAG00169 TÓPICOS ESPECIAIS EM BANCO DE DADOS & 60 & TÓPICOS ESPECIAIS EM BANCO DE DADOS & 60 \\ \midrule
+    Engenharia da Computação & UAG00304 AVALIAÇÃO DE DESEMPENHO DE SISTEMAS & 60 & AVALIAÇÃO DE DESEMPENHO DE SISTEMAS & 60 \\ \cline{2-5}
+      & - & & PROJETO DE SISTEMAS EMBARCADOS & 60 \\ \cline{2-5}
+      & UAG00043 PROTOTIPAÇÃO DE CIRCUITOS DIGITAIS & 60 & PROTOTIPAÇÃO DE CIRCUITOS DIGITAIS & 60 \\ \cline{2-5}
+      & - & & SISTEMAS DE TEMPO REAL & 60 \\ \midrule
+    Engenharia de Software & CCMP3078 DESENVOLVIMENTO DE APLICAÇÕES MÓVEIS & 60 & DESENVOLVIMENTO DE APLICAÇÕES MÓVEIS & 60 \\ \cline{2-5}
+    & CCMP3051 DESENVOLVIMENTO DISTRIBUÍDO DE SOFTWARE & 60 & DESENVOLVIMENTO DISTRIBUÍDO DE SOFTWARE & 60 \\ \cline{2-5}
+      & - & & ESTIMATIVAS E MEDIÇÃO DE SOFTWARE & 60 \\ \cline{2-5}
+      & - & & METODOLOGIAS ÁGEIS & 60 \\ \cline{2-5}
+      & - & & PROGRAMAÇÃO ORIENTADA A ASPECTOS & 60 \\ \cline{2-5}
+      & - & & PROGRAMAÇÃO ORIENTADA A OBJETOS II & 60 \\ \cline{2-5}
+      & UAG00031 TESTE DE SOFTWARE & 60 & TESTE DE SOFTWARE & 60 \\ \cline{2-5}
+      & - & & ESPECIFICAÇÃO FORMAL DE SOFTWARE & 60 \\ \cline{2-5}
+      & - & & PROGRAMAÇÃO COMPETITIVA & 60 \\ \cline{2-5}
+      & CCMP3080 TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE & 60 & TÓPICOS ESPECIAIS EM ENGENHARIA DE SOFTWARE & 60 \\ \midrule
+    Inteligência Computacional & - & & ALGORITMOS DE APRENDIZAGEM DE MÁQUINA & 60 \\ \cline{2-5}
+      & - & & MÁQUINA DE VETORES DE SUPORTE & 60 \\ \cline{2-5}
+      & - & & PROJETO EM APRENDIZAGEM DE MÁQUINA & 60 \\ \cline{2-5}
+      & UAG00012 RECONHECIMENTO DE PADRÕES II & 60 & RECONHECIMENTO DE PADRÕES & 60 \\ \cline{2-5}
+      & - & & REDUÇÃO DE DIMENSIONALIDADE EM APRENDIZAGEM DE MÁQUINA & 60 \\ \cline{2-5}
+      & CCMP3086 TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL & 60 & TÓPICOS ESPECIAIS EM INTELIGÊNCIA ARTIFICIAL & 60 \\ \cline{2-5}
+      & CCMP3039 REDES NEURAIS & 60 & REDES NEURAIS ARTIFICIAIS & 60 \\ \cline{2-5}
+      & UAG00011 VISÃO COMPUTACIONAL & 60 & VISÃO COMPUTACIONAL & 60 \\ \midrule
+    Matemática e Computação Teórica & - & & ÁLGEBRA LINEAR II & 60 \\ \cline{2-5}
+      & - & & CÁLCULO III & 60 \\ \cline{2-5}
+      & MATM3007 CÁLCULO PARA COMPUTAÇÃO III & 60 & CÁLCULO IV & 60 \\ \cline{2-5}
+      & - & & CÁLCULO LAMBDA & 60 \\ \cline{2-5}
+      & - & & INTRODUÇÃO À COMPUTAÇÃO QUÂNTICA  & 60 \\ \cline{2-5}
+      & - & & OTIMIZAÇÃO COMBINATÓRIA (META-HEURÍSTICAS) & 60 \\ \cline{2-5}
+      & - & & PESQUISA OPERACIONAL & 60 \\ \cline{2-5}
+      & - & & REDES COMPLEXAS & 60 \\ \cline{2-5}
+      & - & & TÓPICOS ESPECIAIS EM ALGORITMOS & 60 \\ \cline{2-5}
+      & - & & TEORIA DOS NÚMEROS E CRIPTOGRAFIA & 60 \\ \cline{2-5}
+      & - & & CRIPTOGRAFIA APLICADA & 60 \\ \cline{2-5}
+      & MATM3017 CÁLCULO NUMÉRICO E COMPUTACIONAL & 60 & CÁLCULO NUMÉRICO E COMPUTACIONAL & 60 \\ \cline{2-5}
+      & - & & ÁLGEBRA LINEAR COMPUTACIONAL & 60 \\ \cline{2-5}
+      & - & & TÓPICOS MODELAGEM MATEMÁTICA CONTINUA & 60 \\ \midrule
+    Mídia e Interação & - & & REALIDADE VIRTUAL E AUMENTADA & 60 \\ \cline{2-5}
+      & CCMP3076 TÓPICOS ESPECIAIS EM PROCESSAMENTO DE SINAIS & 60 & TÓPICOS ESPECIAIS EM PROCESSAMENTO DE SINAIS & 60 \\ \cline{2-5}
+      & CCMP3088 TÓPICOS ESPECIAIS EM MÍDIA E INTERAÇÃO & 60 & TÓPICOS ESPECIAIS EM MÍDIA E INTERAÇÃO & 60 \\ \midrule
+    Redes e Sistemas Distribuídos & CCMP3085 GERENCIAMENTO DE REDES & 60 & GERENCIAMENTO DE REDES DE COMPUTADORES & 60 \\ \cline{2-5}
+      & - & & INFRAESTRUTURA DE REDES E CABEAMENTO ESTRUTURADO & 60  \\ \cline{2-5}
+      & - & & PROGRAMAÇÃO PARALELA E DISTRIBUÍDA & 60 \\ \cline{2-5}
+      & - & & TÓPICOS ESPECIAIS EM REDES DE COMPUTADORES E SISTEMAS DISTRIBUÍDOS & 60 \\ \cline{2-5}
+      & CCMP3079 SEGURANÇA DE REDES DE COMPUTADORES & 60 & SEGURANÇA DE REDES DE COMPUTADORES & 60 \\ \cline{2-5}
+      & UAG00170 MODELAGEM DE DEPENDABILIDADE DE SISTEMAS COMPUTACIONAIS & 60 & MODELAGEM DE DEPENDABILIDADE & 60  \\ \midrule
+    Tecnologia Educacional & EDUC3079 PROJETOS DE SISTEMAS EDUCACIONAIS & 60 & DESENVOLVIMENTO DE SOFTWARE EDUCACIONAL & 60 \\ \cline{2-5}
+      & EDUC3048 INFORMÁTICA NA EDUCAÇÃO & 60 & INFORMÁTICA NA EDUCAÇÃO & 60 \\ \cline{2-5}
+      & - & & TECNOLOGIAS ASSISTIVAS & 60 \\ \cline{2-5}
+      & - & & TECNOLOGIAS, COGNIÇÃO E APRENDIZAGEM & 60 \\ \midrule
+    Tecnologias da Informação & UAG00080 GESTÃO DA TECNOLOGIA DA INFORMAÇÃO & 60 & GESTÃO DA TECNOLOGIA DA INFORMAÇÃO & 60 \\ \cline{2-5}
+      & CCMP3077 GESTÃO DE SERVIÇOS EM TI & 60 & GESTÃO DE SERVIÇOS EM TI & 60 \\ \cline{2-5}
+      & UAG00079 GOVERNANÇA EM TECNOLOGIA DA INFORMAÇÃO & 60 & GOVERNANÇA EM TECNOLOGIA DA INFORMAÇÃO & 60 \\ \cline{2-5}
+      & CCMP3083 TÓPICOS ESPECIAIS EM GESTÃO DE PROJETOS & 60 & TÓPICOS ESPECIAIS EM GESTÃO DE PROJETOS & 60 \\ \cline{2-5}
+      & UAG00300 FUNDAMENTOS EM CIÊNCIA DE DADOS & 60 & FUNDAMENTOS EM CIÊNCIA DE DADOS & 60 \\ \cline{2-5}
+      & UAG00024 GESTÃO DE PROCESSOS DE NEGÓCIO & 60 & GESTÃO DE PROCESSOS DE NEGÓCIO & 60 \\ \midrule
+    - & EDUC3090 LÍNGUA BRASILEIRA DE SINAIS - LIBRAS L & 45 & LÍNGUA BRASILEIRA DE SINAIS - LIBRAS & 45 \\ 
+  \bottomrule
+  \end{longtable}
+  \end{tiny}
+  \end{center}
+  
+  %Também é importante destacar que, no momento da escolha de migração do Perfil Curricular, o discente aproveitará as Cargas Horárias oriundas de disciplinas que não apresentarem equivalência, serão contabilizadas para o Grupo de Componentes Optativos Livres.
 
-A articulação entre ensino, pesquisa e extensão é fundamental no processo de
-produção do conhecimento, pois permite estabelecer um diálogo entre a Ciência da
-Computação e as demais áreas, relacionando o conhecimento científico à realidade
-social. 
 
-Além das atividades contempladas nas disciplinas que proporcionam a
-problematização e contextualização do ensino, entendendo ser o docente um agente
-indispensável na execução desta atividade, o Trabalho de Conclusão de Curso, o
-Estágio Curricular Supervisionado e as Atividades Complementares focarão,
-prioritariamente, a interdisciplinaridade e contextualização do ensino. 
 
-\section{Flexibilidade curricular}
 
-O ensino de graduação, voltado para a construção do
-conhecimento, não pode pautar-se por uma estrutura curricular rígida, baseada
-num enfoque unicamente disciplinar e sequenciada a partir de uma hierarquização
-artificial dos conteúdos, quando a realidade se apresenta em uma multiplicidade
-interdependente e a dinâmica de transformação desta coloca a necessidade de um
-aprender permanente. 
 
-Desta forma, a flexibilidade desponta como elemento
-indispensável à estruturação curricular de modo a atender tanto às demandas da
-sociedade moderna quanto àquelas que se direcionam a uma dimensão criativa e
-libertária para a existência humana, constituindo-se não apenas em
-possibilidade, mas em condição necessária à efetivação de uma formação
-profissional de qualidade. 
 
-No curso, a flexibilidade curricular será garantida
-através de uma série de ações tomadas visando oportunizar os acadêmicos
-vivenciar oportunidades no âmbito da Universidade, tais como: redução da carga
-horária total do Curso (tempo livre como importante componente curricular,
-oportunizando a ocorrência de momentos formativos inovadores e profícuos),
-oferecimento de disciplinas optativas nas diferentes ênfases do Curso
-(oportunidade de escolha por parte do acadêmico, respeitando suas competências e
-habilidades), atividades complementares (flexíveis e diversas, com carga horária
-mínima estabelecida, mas definidas pelos acadêmicos, conforme seus anseios). 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter Ementas dos Componentes Curriculares
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Integração Universidade-Empresa}
 
-O desafio de formar um Bacharel em Ciência  da Computação preparado para
-enfrentar o mercado de trabalho altamente  competitivo que exige profissionais
-altamente qualificados. O próprio conceito  de qualificação profissional vem se
-alterando, com a presença cada vez maior de  componentes associadas às
-capacidades de coordenar informações, interagir  com pessoas, interpretar de
-maneira dinâmica a realidade.
+\chapter{EMENTAS DOS COMPONENTES CURRICULARES}
 
-\section{Estímulo à capacidade de trabalho autônomo}
+% As ementas\footnote{\url{https://docs.google.com/document/d/1UUd2-Y9ZuMGJe5ROmmPjHUkrayysDUXiLxDEhAbc-9o/edit?usp=sharing}} das disciplinas obrigatórias e optativas estão disponíveis no endereço abaixo para facilitar a leitura e organização deste documento, uma vez que só de ementa são quase 100 páginas.
 
-Tendo consciência do diferencial na formação  profissional relacionado à
-capacidade de desenvolver atividades de forma  autônoma, o curso visa estimular,
-ao longo de toda a sua duração, a capacidade de  trabalho de forma autônoma,
-onde o estudante se converte em protagonista de  sua própria aprendizagem e
-desenvolve sua capacidade de ``aprender a aprender''.  A realidade mostra que
-este diferencial pode ser conseguido com treinamento, de forma que o processo
-ensino-aprendizagem contribuirá, perpassando todas as disciplinas, para o
-alcance desta capacidade ao final do curso.
+\vspace*{9.5cm}
 
-\section{Desenvolvimento de habilidades para o trabalho em equipe}
+\begin{center}
+    {\huge 1º período}
+\end{center}
 
-Da mesma forma que o  explicitado no item anterior, tem-se a consciência para o
-diferencial do profissional com  habilidade de trabalho em equipe. Busca-se,
-desta forma, ao longo de todo o  Curso, promover atividades que promovam a
-possibilidade de desenvolver trabalhos  em equipe, inclusive nas formas de
-avaliação das disciplinas.
+\include{ementas/MATM3031-CALCULO_PARA_COMPUTACAO_I.ementa.tex}
 
-\section{Estágio Supervisionado Obrigatório}
+\include{ementas/MATM3021-GEOMETRIA_ANALITICA_A.ementa.tex}
 
-De acordo com a Lei nº 11.788/2008, o estágio é um ``ato educativo escolar supervisionado, desenvolvido no ambiente de trabalho'' que tem o propósito de garantir o “aprendizado de competências próprias da atividade profissional e a contextualização curricular, objetivando o desenvolvimento do educando para a vida cidadã e para o trabalho”. O Estágio Supervisionado Obrigatório (ESO), fazendo parte da matriz curricular, constitui-se num espaço de aprendizagem concreta de vivência prática. O objetivo central se direciona na aplicação dos conhecimentos científicos adquiridos durante a realização do curso e a vivência profissional.
+\include{ementas/MATM3008-LOGICA_MATEMATICA.ementa.tex}
 
-Os mecanismos de acompanhamento e de cumprimento serão estabelecidos e acompanhados pelo Coordenador do Curso em conjunto com a Comissão de Estágio Supervisionado (COE), regidos pela resolução de ESO de BCC/UAG. As atividades referentes ao estágio poderão ser encontradas na própria resolução, documento aprovado pelo Colegiado de Coordenação Didática do Curso de Bacharelado em Ciência da Computação (CCD/BCC), contendo o detalhamento das atividades permitidas, inclusive a possibilidade de equiparação de atividades para ESO, mediante aprovação do CCD/BCC, tendo em vista que a região ainda não possui um número significativo de empresas na área de Tecnologia da Informação (TI), que possam ofertar vagas e suporte adequado aos nossos alunos. Convém ressaltar que estágios relevantes para os futuros egressos deste curso envolve atividades específicas da área, devendo seguir um processo bem definido e institucionalizado. Estes, resumidamente, consistem sistematicamente nas seguintes etapas:
+\include{ementas/CCMP3057-INTRODUCAO_A_PROGRAMACAO.ementa.tex}
+
+\include{ementas/CCMP3056-INTRODUCAO_A_COMPUTACAO_C.ementa.tex}
+
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 2º período}
+\end{center}
+
+
+\include{ementas/MATM3032-CALCULO_PARA_COMPUTACAO_II.ementa.tex}
+
+\include{ementas/FISC3004-FISICA_PARA_COMPUTACAO.ementa.tex}
+
+\include{ementas/MATM3019-ALGEBRA_LINEAR_I.ementa.tex}
+
+\include{ementas/CCMP3006-ALGORITMOS_E_ESTRUTURA_DE_DADOS_I.ementa.tex}
+
+\include{ementas/CCMP3017-PROGRAMACAO_ORIENTADA_AO_OBJETO.ementa.tex}
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 3º período}
+\end{center}
+
+\include{ementas/PRBE3006-PROBABILIDADE_E_ESTATISTICA.ementa.tex}
+
+\include{ementas/CCMP3058-SISTEMAS_DIGITAIS.ementa.tex}
+
+\include{ementas/CIEN3005-METODOLOGIA_CIENTIFICA.ementa.tex}
+
+\include{ementas/CCMP3059-MATEMATICA_DISCRETA.ementa.tex}
+
+\include{ementas/CCMP3006-ALGORITMOS_E_ESTRUTURA_DE_DADOS_II.ementa.tex}
+
+\include{ementas/LETR3020-INGLES.ementa.tex}
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 4º período}
+\end{center}
+
+\include{ementas/CCMP3010-ARQUITETURA_DE_COMPUTADORES.ementa.tex}
+
+\include{ementas/CCMP3064-PROJETO_E_ANALISE_DE_ALGORITMOS.ementa.tex}
+
+\include{ementas/CCMP3018-ENGENHARIA_DE_SOFTWARE.ementa.tex}
+
+\include{ementas/CCMP3065-PARADIGMAS_DE_LINGUAGENS_DE_PROGRAMACAO.ementa.tex}
+
+\include{ementas/CCMP3066-BANCO_DE_DADOS_I.ementa.tex}
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 5º período}
+\end{center}
+
+\include{ementas/CCMP3067-SISTEMAS_DE_INFORMACAO_E_TECNOLOGIAS.ementa.tex}
+
+\include{ementas/CCMP3009-SISTEMAS_OPERACIONAIS.ementa.tex}
+
+\include{ementas/CCMP3014-INTELIGENCIA_ARTIFICIAL.ementa.tex}
+
+\include{ementas/CCMP3068-TEORIA_DA_COMPUTACAO.ementa.tex}
+
+\include{ementas/CCMP3023-REDE_DE_COMPUTADORES.ementa.tex}
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 6º período}
+\end{center}
+
+\include{ementas/CCMP3019-COMPUTACAO_GRAFICA.ementa.tex}
+
+\include{ementas/CCMP3020-COMPILADORES.ementa.tex}
+
+\include{ementas/CCMP3043-RECONHECIMENTO_DE_PADROES.ementa.tex}
+
+\include{ementas/BCC00003-EMPREENDEDORISMO_I.ementa.tex}
+
+\include{ementas/CCMP3021-SISTEMAS_DISTRIBUIDOS.ementa.tex}
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 7º período}
+\end{center}
+
+\include{ementas/CCMP3069-PROJETO_DE_DESENVOLVIMENTO.ementa.tex}
+
+\include{ementas/CCMP3070-INTERACAO_HUMANOCOMPUTADOR.ementa.tex}
+
+\include{ementas/CCMP3071-COMPUTADORES_E_SOCIEDADE.ementa.tex}
+
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge 9º período}
+\end{center}
+
+\include{ementas/CCMP3061-ESTAGIO_SUPERVISIONADO.ementa.tex}
+
+\include{ementas/CCMP3063-TRABALHO_DE_CONCLUSAO_DE_CURSO__BACH._CIENCIA_DA.ementa.tex}
+
+
+
+\vspace*{10cm}
+
+\begin{center}
+    {\huge Optativas}
+\end{center}
+
+\include{./ementas/ADMT3002-CONTABILIDADE_E_ADMINISTRACAO_FINANCEIRA.ementa.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter Estágio Supervisionado Obrigatório
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{ESTÁGIO SUPERVISIONADO OBRIGATÓRIO}
+\label{cap_eso}
+
+De acordo com a Lei nº 11.788/2008, o estágio é um ``ato educativo escolar supervisionado, desenvolvido no ambiente de trabalho'' que tem o propósito de garantir o “aprendizado de competências próprias da atividade profissional e a contextualização curricular, objetivando o desenvolvimento do educando para a vida cidadã e para o trabalho”. O Estágio Supervisionado Obrigatório (ESO), fazendo parte da matriz curricular, constitui-se num espaço de aprendizagem concreta de vivência prática. O objetivo central se direciona na aplicação dos conhecimentos científicos adquiridos durante a realização do curso e a vivência profissional. O ESO deve estar de acordo com a supracitada Lei nº 11.788/2008, pela Resolução UFRPE/CONSEPE nº 678/2008\footnote{Resolução UFRPE/CONSEPE nº 678/2008: \url{http://www.ufape.edu.br/estagios}}.
+
+Os mecanismos de acompanhamento e de cumprimento serão estabelecidos e acompanhados pelo Coordenador do Curso em conjunto com a Comissão de Estágio Supervisionado (COE), regidos pela resolução de ESO de BCC/UAG. As atividades referentes ao estágio poderão ser encontradas na própria resolução, documento aprovado pelo Colegiado de Coordenação Didática do Curso de Bacharelado em Ciência da Computação (CCD/BCC), contendo o detalhamento das atividades permitidas, inclusive a possibilidade de equiparação\footnote{Resolução UFRPE/CONSEPE nº 425/2010: \url{http://www.ufape.edu.br/estagios}} de atividades para ESO, de acordo com a Resolução nº 425/2010, mediante aprovação do CCD/BCC, tendo em vista que a região ainda não possui um número significativo de empresas na área de Tecnologia da Informação (TI), que possam ofertar vagas e suporte adequado aos nossos alunos. Convém ressaltar que estágios relevantes para os futuros egressos deste curso envolve atividades específicas da área, devendo seguir um processo bem definido e institucionalizado. Estes, resumidamente, consistem sistematicamente nas seguintes etapas:
 
 \begin{enumerate}
     \item Matrícula na disciplina de ESO;
@@ -917,531 +1335,946 @@ As explanações para as etapas apresentadas estão a seguir:
 
 Como complemento, o Estágio não obrigatório, que é uma atividade com objetivo de proporcionar ao aluno a oportunidade de aplicar seus conhecimentos acadêmicos em situações de prática profissional pode ser realizado a partir do momento que o aluno é aprovado na disciplina de Algoritmos e Estrutura de Dados, assim como não pode ultrapassar as 120 (cento e vinte) horas para aproveitamento como Atividades Complementares.
 
-\section{Atividades Curriculares Complementares}
-
-As Atividades Curriculares Complementares (ACC) têm a finalidade de propiciar saberes e habilidades que enriqueçam o processo de ensino e aprendizagem, possibilitando a ampliação dos conhecimentos didáticos, curriculares, científicos e culturais por meio de atividades realizadas nos mais diversos espaços (Unidades Acadêmicas da Universidade, ONGs, Instituições públicas e privadas, etc). Essas atividades de formação complementar abrangem as modalidades de Ensino, Pesquisa, Extensão, Administração Universitária, e, Caráter Interdisciplinar, bem como as suas formas de registro no histórico escolar, devidamente detalhadas na Resolução UFAPE/CONSU \textit{PRO TEMPORE} Nº 015/2020. 
-%Resolução CEPE/UFRPE nº 362/2011. 
-Ainda de acordo com a Resolução supracitada, em seu Art. 15, para registro das Atividades Curriculares Complementares no histórico escolar, o aluno deverá abrir processo endereçado à Coordenação do Curso, conforme estabelece os seus Incisos e Parágrafos.
-%Art. 1º, Parágrafo único, “toda atividade acadêmica complementar deverá ficar sobre a responsabilidade, de, pelo menos, um professor, devendo ser avaliada e homologada pelo Colegiado de Coordenação Didática – CCD do curso”. 
-Neste sentido, o acompanhamento e avaliação dessas atividades estarão integrados ao planejamento do curso. O aluno deverá, obrigatoriamente, apresentar uma ou mais atividades de naturezas distintas, sejam Ensino, Pesquisa, Extensão, Administração Universitária, e, Caráter Interdisciplinar. As atividades podem ser consultados através do Anexo I, Quadro de Atividades Curriculares Complementares (ACC), Carga Horária e Documento Comprobatório a ser apresentado, da supracitada Resolução UFAPE/CONSU Nº 015/2020.
-
-A carga horária total das atividades complementares para o curso de Ciência da Computação é de 320h. Esta será considerada apenas mediante o requerimento protocolado à Coordenação do Curso e acompanhado da documentação comprobatória.
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% chapter Perfil do egresso
+% chapter Trabalho de Conclusão de Curso
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-\chapter{Perfis}
+\chapter{TRABALHO DE CONCLUSÃO DE CURSO}
 
-\section{Estudante ingressante}
+O Trabalho de Conclusão de Curso (TCC) é obrigatório e fundamental para desenvolvimento do discente, pois é uma oportunidade de consolidar e aprimorar os conhecimentos que adquiriu durante o curso. Tem por objetivo contribuir para a formação profissional, acadêmica e pessoal do aluno.
 
-Deve se interessar pela computação e, em particular, pela ciência. Deve possuir
-entusiasmo para conhecer e dominar novos assuntos, além de disposição  para
-construir sua própria reputação por meio dos produtos do seu esforço  próprio ou
-resultantes de trabalho em equipe do qual participa.  Deve possuir atitude e a
-necessidade de realizar, mesmo sem supervisão. De engajar-se em representações
-locais, regionais, nacionais e internacionais, através de representações de
-classe, visando a atualização e fortalecimento da sociedade. Estes atributos são
-esperados na conduta do estudante ingressante e utilizados ao longo do curso.
+O Projeto do TCC complementa a formação do aluno, sendo seus resultados executados e descritos como pesquisa científica ou relatório técnico, compreendendo não somente trabalhos de pesquisa, mas trabalhos e serviços voltados para a indústria também.  Dessa maneira, a natureza do trabalho poderá ser como uma monografia, um artigo científico, um relatório técnico, entre outros. O tipo do projeto do TCC será definido entre o discente e seu orientador.
 
-\subsection{Descrição dos requisitos psicofísicos}
+O componente curricular é ofertado no último período do curso e seus mecanismos de acompanhamento e de cumprimento são estabelecidos e acompanhados pelo professor responsável, regidos pela resolução de TCC de BCC. A disciplina possui 180 (cento e oitenta) horas, recomendando-se o seu desenvolvimento durante o curso, para que o estudante possa ter maiores chances de apresentar e defender o seu trabalho no prazo esperado, diminuindo o risco de postergar o seu curso. Para se matricular no componente curricular TCC é necessário que o discente tenha integralizado todas as disciplinas do curso.
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter Atividades Curriculares Complementares
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\chapter{ATIVIDADES CURRICULARES COMPLEMENTARES}
+
+As Atividades Curriculares Complementares (ACC) têm a finalidade de propiciar saberes e habilidades que enriqueçam o processo de ensino e aprendizagem, possibilitando a ampliação dos conhecimentos didáticos, curriculares, científicos e culturais por meio de atividades realizadas nos mais diversos espaços (Unidades Acadêmicas da Universidade, ONGs, Instituições públicas e privadas, etc). Essas atividades de formação complementar abrangem as modalidades de Ensino, Pesquisa, Extensão, Administração Universitária, e, Caráter Interdisciplinar, bem como as suas formas de registro no histórico escolar, devidamente detalhadas na Resolução UFAPE/CONSU \textit{Pro Tempore} nº 015/2020\footnote{Resolução UFAPE/CONSU \textit{Pro Tempore} nº 015/2020: \url{http://www.ufape.edu.br/drca}}. 
+
+Ainda de acordo com a Resolução supracitada, em seu Art. 15, para registro das Atividades Curriculares Complementares no histórico escolar, o aluno deverá abrir processo endereçado à Coordenação do Curso, conforme estabelece os seus Incisos e Parágrafos. Neste sentido, o acompanhamento e avaliação dessas atividades estarão integrados ao planejamento do curso. O aluno deverá, obrigatoriamente, apresentar uma ou mais atividades de naturezas distintas, sejam Ensino, Pesquisa, Extensão, Administração Universitária, e, Caráter Interdisciplinar. As atividades podem ser consultados através do Anexo I, Quadro de Atividades Curriculares Complementares (ACC), Carga Horária e Documento Comprobatório a ser apresentado, da supracitada Resolução UFAPE/CONSU \textit{Pro Tempore} nº 015/2020.
+
+A carga horária total das atividades complementares para o curso de Ciência da Computação é de 320 (trezentas e vinte) horas.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter CRITÉRIOS DE APROVEITAMENTO DE ESTUDOS
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{CRITÉRIOS DE APROVEITAMENTO DE ESTUDOS}
+
+O aproveitamento de estudos corresponde à dispensa de cumprimento de disciplinas regulares do curso, quando a mesma ou uma equivalente em conteúdo e carga horária são cumpridas em outro curso superior, seja no âmbito da UFRPE ou de outra instituição.
+
+Na UFRPE, a dispensa de disciplinas encontra-se normatizada pela Resolução CEPE/UFRPE nº 442/2006. Para que sejam creditadas, as disciplinas cursadas deverão:
+
+\begin{enumerate}[label=(\alph*)]
+  \item ser equivalentes em, pelo menos, 80\% (oitenta por cento) do conteúdo programático às correspondentes disciplinas que serão dispensadas; 	
+  \item ter carga horária igual ou superior àquela das disciplinas a serem dispensadas; 	
+  \item ser oferecidas regularmente pela Instituição onde foram cursadas como integrantes do currículo de um curso devidamente reconhecido.
+\end{enumerate}
+
+O pedido de dispensa da disciplina será dirigido ao coordenador do curso do solicitante, através de requerimento, acompanhado de histórico escolar ou declaração e do programa da disciplina a ser creditada. No requerimento deverão ficar esclarecidos códigos e denominações da disciplina a ser creditada e da disciplina a ser dispensada. Os pedidos de dispensa serão analisados por representantes dos cursos e homologados pelo CCD.
+
+Este último terá a incumbência de realizar a dispensa das disciplinas não cursadas na UFRPE. Em se tratando de disciplina cursada na UFRPE, a dispensa será analisada e decidida diretamente pelo Coordenador, que informará ao CCD das dispensas, sendo obrigatório o registro em ata.
+
+Existe a possibilidade de abreviação do tempo de formação para os alunos que demonstrem extraordinário aproveitamento nos estudos, como previsto na Lei nº 9.394/1996, no Art. 47, § 2º. Este aparato legal ainda está em processo de regulamentação pela UFRPE com base na Resolução CFE nº 1/1994 e no parecer CES/CNE n° 247/1999.
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter METODOLOGIA E AVALIAÇÃO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\chapter{METODOLOGIA E AVALIAÇÃO}
+\label{cap_metodologia_e_avaliacao}
+
+As discussões sobre os processos de formação no Ensino Superior têm destacado a relação entre conhecimento e ensino no contexto de uma transição paradigmática das Ciências que, dentre outros aspectos, se caracteriza pela emergência de sistemas de conhecimento abertos e não dicotômicos (SANTOS, 1988). Segundo Cunha (2005, p. 13), o “paradigma emergente” nas Ciências situa os professores do magistério superior diante de novos desafios, a saber:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Enfoque no conhecimento a partir da historicidade de sua produção e de sua provisoriedade e relatividade;
+    \item Estímulo à análise, à capacidade de composição de dados, informações, argumentos e ideias;
+    \item Valorização da curiosidade, do questionamento e da incerteza;
+    \item Percepção do conhecimento como interdisciplinar, estabelecendo relações e atribuição de significados em função dos objetivos sociais e acadêmicos;
+    \item Valorização da pesquisa como um instrumento do ensino e a extensão como ponto de partida e chegada da apreensão da realidade;
+    \item Valorização das habilidades sócio-intelectuais tanto quanto os conteúdos.
+\end{enumerate}
+
+Neste contexto, a docência assume um novo papel deslocando-se do modelo onde figurava como fonte da informação para uma posição de mediação entre o aluno e o seu objeto de conhecimento. O destaque dado à importância da autonomia do estudante em seu processo de desenvolvimento intelectual, social e afetivo põe em relevo o protagonismo do processo de ensino e aprendizagem na consecução dos objetivos do curso (seção 4), considerando o perfil do egresso (seção 5) e as respectivas competências e habilidades esperadas de um Bacharel em Ciência da Computação. Diante disso, este projeto orienta-se por determinadas concepções teórico-metodológicas, tendo em vista possibilitar a execução do escopo almejado.
+
+\section{Concepção de ensino e aprendizagem}
+
+O ensino e a aprendizagem são compreendidos como elementos constituintes de um mesmo processo de construção do conhecimento em que o aluno e seu objeto de estudo estão em contínua relação mediados pela ação do professor (ANASTASIOU; ALVES, 2015). Isso significa que o ensino não corresponde a uma transmissão de informações, mas assume um caráter dialógico, problematizador e contextualizador do próprio objeto de conhecimento (FREIRE, 2005b). O professor age de modo a estimular a aprendizagem, valorizando os conhecimentos prévios dos alunos, proporcionando-lhes experiências de pesquisa, interação social e expressão de saberes, práticas, atitudes e valores, ao mesmo tempo em que avalia permanentemente o seu desenvolvimento.
+
+Nessa concepção, os conteúdos da aprendizagem não se apresentam isolados de sua dimensão epistemológica, social ou política. Além disso, tais conteúdos são abrangentes, incluindo fatos, conceitos, procedimentos e atitudes (ZABALA, 1998). O professor deve, então, fomentar, junto aos seus alunos, momentos que estimulem a apreensão da complexidade inerente ao objeto de estudo por meio da problematização. O processo de ensino-aprendizagem numa perspectiva ativa, e não mecânica ou “bancária” (FREIRE, 2005a), coloca o aluno como protagonista de seu desenvolvimento intelectual, social e afetivo ao mobilizar seu potencial para responder aos desafios postos pelos novos saberes (BERBEL, 2011). Tal postura favorece uma “aprendizagem significativa” em que os novos conhecimentos interagem de maneira substantiva, ou seja, não literal, com os conhecimentos já construídos pelo aluno. Neste sentido, trata-se de uma aprendizagem não arbitrária, pois se apoia nos conhecimentos prévios dos alunos tornando-os mais ricos ou dotados de novos significados, de modo a estimular a criatividade e autonomia (MOREIRA, 2010).
+
+Compreendido desta forma, o processo de ensino-aprendizagem possibilita considerar a tríade professor-conhecimento-aluno a partir de novas perspectivas. Por exemplo, as concepções de espaço e tempo do ensinar e do aprender distanciam-se da tradicional clivagem entre ensino presencial e virtual em prol de uma concepção híbrida possibilitando, assim, o uso planejado das mais variadas tecnologias digitais aliadas a uma interação entre o aluno e o grupo-classe.
+
+\section{As Tecnologias da Informação e Comunicação – TICs aplicadas ao ensino e a aprendizagem}
+
+O ensino híbrido representa uma quebra de paradigmas em direção a uma proposta de inovação mais alinhada com os avanços tecnológicos de uma sociedade pós-moderna. Pensar o ensino híbrido, portanto, significa organizar estratégias metodológicas utilizando atividades presenciais e a distância em plataformas on-line, empregando TICs, e off-line, nos momentos de interação com colegas e/ou com o professor/tutor. Segundo Christensen, Horn e Staker (2013), no ensino híbrido, o aluno aprende:
+
+\begin{citacao}
+    “Pelo menos em parte por meio do ensino online, com algum elemento de controle do estudante sobre o tempo, local, caminho e/ou ritmo de estudo e, pelo menos em parte, em uma localidade física supervisionada, fora de sua residência. As modalidades ao longo do caminho de aprendizado de cada estudante em um curso ou matéria são conectadas para oferecer uma experiência de educação integrada”.
+\end{citacao}
+
+Nessa perspectiva, seja presencialmente ou à distância, o estudante compartilha de espaços interativos e integrativos de aprendizagem. São exemplos de uma abordagem híbrida do ensino (BACICH; NETO; TREVISANI, 2015):
+
+\noindent \textbf{Sala de aula invertida}: o aluno estuda a teoria em casa utilizando-se de plataforma on-line; o tempo e o espaço da sala de aula são utilizados para discussões e realização de atividades. Os assuntos são disponibilizados previamente pelo professor no Ambiente Virtual de Aprendizagem – AVA. No momento da aula, os alunos compartilham com o professor suas observações a respeito do material estudado previamente e, seguindo, um plano de trabalho, desenvolvem atividades relacionadas com a teoria, com uso das mais variadas estratégias: rotação por estações, laboratório rotacional, seminários, estudos de caso, etc.
+
+\noindent \textbf{Rotação por estações}: os alunos são divididos em grupos (estações), cada qual realizando uma determinada tarefa, tendo em vista os objetivos definidos no plano de aula. Um dos grupos estará, necessariamente, desenvolvendo alguma atividade de forma on-line. Após transcorrer um determinado período, os alunos trocam de grupo, de modo a trabalhar em uma tarefa diferente da sua. Este revezamento continua até que todos os estudantes tenham passado por todos os grupos. 
+
+Ainda que as atividades realizadas em cada grupo sejam independentes, no final, elas funcionam de forma integrada, possibilitando, assim, uma compreensão de conjunto do objeto estudado.
+
+\noindent \textbf{Laboratório rotacional}: é semelhante ao modelo da rotação por estações, mas, neste caso, o revezamento envolve o deslocamento para um laboratório de informática onde cada aluno executará, individualmente, a atividade, sob a mediação de um tutor.
+
+\noindent \textbf{Rotação individual}: o aluno trabalha sozinho devendo cumprir uma lista de temas ou atividades planejadas pelo professor. O tempo que o aluno terá para desenvolver suas tarefas é livre, pois varia de acordo com as suas necessidades.
+
+Cabe ao professor, portanto, não só conhecer diversas ferramentas \textit{on-line} disponíveis para a aprendizagem como, também, estabelecer a correta utilização destes instrumentos em função dos objetivos pedagógicos a serem atingidos. Diante disso, o uso do AVA se apresenta como elemento intrínseco ao planejamento de ensino. Compreendido como um sistema computacional destinado ao suporte de atividades mediadas pelas TIC's, o AVA permite ``integrar múltiplas mídias, linguagens e recursos'', além do ``gerenciamento de banco de dados'', ampliando ``a intercomunicação e a socialização de experiências na construção de aprendizagens colaborativas'' (SILVA, 2011, p. 2).
+	
+O AVA pode ser utilizado tanto para formação exclusivamente \textit{on-line} quanto presencial. Nele, professores e alunos têm acesso a diversas ferramentas, tais como: e-mails, blogs, fóruns de discussão, chats, glossários interativos, quiz, \textit{webquests}, \textit{wikis}, vídeos, etc. Caracterizado pela interatividade, hipertextualidade e conectividade, o AVA possibilita a ``flexibilidade de navegação'' e formas ``síncronas e assíncronas de comunicação'' oferecendo aos alunos, ``a oportunidade de definirem seus próprios caminhos de acesso às informações, afastando-se de modelos massivos de ensino e garantindo aprendizagens personalizadas'' (SILVA, 2011, p. 5).
+
+\section{Estratégias metodológicas}
+
+O ensino de computação com uso das TIC's se beneficia das inúmeras possibilidades que universos digitais e comunicacionais oferecem, possibilitando aprendizagens em rede, na perspectiva do espraiamento de espaços, tempos e itinerários formativos. Uma abordagem híbrida do processo de ensino-aprendizagem não implica a exclusão de estratégias de ensino mais tradicionais, uma vez que o fenômeno educativo é complexo e dinâmico. Novas estratégias podem surgir decorrentes da organização do trabalho docente. O Quadro 16 apresenta alguns exemplos de estratégias metodológicas, dentre outras tantas opções existentes.
+
+\begin{center}
+    
+    \begin{scriptsize}
+        \begin{longtable}{p{4.5cm}p{10cm}}
+            \caption{\label{quadro:proposicoes-estrategias-metodologicas}Proposições de estratégias metodológicas.}\\
+      \toprule
+      \textbf{Estratégia metodológica} & \textbf{Descrição}\\ 
+        \midrule
+        Aula expositiva & Consiste em uma apresentação oral visando iniciar um tema de estudo, “fazer uma síntese do assunto estudado procurando reunir os pontos mais significativos, [ou] estabelecer comunicações que tragam atualidade ao tema ou explicações necessárias” (MASETTO, 2012). A aula expositiva não objetiva a reprodução contínua de informações presentes em livros e artigos, ela procura motivar os alunos ao estudo de um determinado tema, oferecer uma síntese, destacar conceitos-chave ou elucidar pontos complexos da matéria.\\ \midrule
+        Seminário & Contribui para o desenvolvimento da prática de pesquisa e discussão de argumentos. O seminário compõe-se de uma mesa-redonda composta por representantes discentes de diversos grupos que, por sua vez, pesquisaram um tema específico. Com a mediação do professor, os resultados dessas pesquisas são debatidos à luz de um tema geral proposto para o encontro. “O resultado dessa mesa-redonda pode ser um texto produzido pelos alunos com a coordenação do professor sobre o novo tema” (MASETTO, 2012) A prática do seminário está muito associada ao “ensino com pesquisa”. \\ \midrule
+        Estudo de caso & Utiliza-se de uma situação real do universo profissional do graduando, de modo a relacionar teoria e prática, desenvolvendo habilidades específicas no trato com problemas concretos. “O que se espera com o uso dos casos é que o estudante se coloque no lugar da pessoa a quem cabe tomar a decisão ou resolver o problema. Apesar de terem sido retirados de situações reais para as quais muitas vezes houve uma decisão conhecida, esta não é apresentada, restando aos estudantes a tarefa de determinar qual a solução mais adequada. Os casos são utilizados como catalisadores da discussão” (GIL, 2006). \\ \midrule
+        Textos, Imagens e Documentos & Consiste na análise de trechos selecionados de livros ou artigos, bem como de imagens ou quaisquer documentos relevantes para um determinado tema de estudo. Não se trata de ler o conteúdo da matéria em sala de aula, mas sim de explorar fontes relacionadas à discussão proposta pelo professor. Tal estratégia contribui para solidificar a habilidade de interpretação com base em aspectos intrínsecos e extrínsecos à fonte analisada. \\ \midrule
+        Discussões & Com base em Gil (2006), pode-se dizer que a prática da discussão no processo de ensino-aprendizagem reveste-se de grande importância pedagógica, na medida em que:
+
+        \begin{enumerate}[midsep]
+            \item favorece uma reflexão acerca do que foi aprendido;
+            \item oportuniza aos estudantes o espaço para formularem princípios com suas próprias palavras;
+            \item ajuda os discentes a identificaram problemas apresentados em leituras e preleções;
+            \item promove o envolvimento entre os alunos e destes com o professor;
+            \item estimula o pensar crítico; 	
+            \item postula o respeito a ideias divergentes.
+        \end{enumerate}
+
+        A discussão pode ocorrer utilizando-se das mais variadas técnicas: “Brainstorming”, “Grupos de Cochicho”, “Phillips 66”, “Painel Integrado”, “GVGO”, “Grupo de Oposição”, etc.\\ \midrule
+        Visitas Técnicas & Constituem uma oportunidade de contato com o ambiente profissional do futuro bacharel. A visita deve ter bem claro seus objetivos e estar relacionada aos temas que estão sendo estudados. Os estudantes seguem um roteiro de observações e registram tudo o que for relevante ao propósito do trabalho. Após a visita, os alunos elaboram um relatório para discuti-lo durante a aula com os demais colegas e com o professor. “Neste debate é importante trazer as questões teóricas buscando a interação entre teoria e prática” (MASETTO, 2012, p. 146).\\
+      \bottomrule
+\end{longtable}
+\end{scriptsize}      
+\end{center}
+
+O professor deverá, por meio do planejamento e contínua reflexão sobre a prática, definir as estratégias metodológicas que melhor se adequem aos objetivos propostos e às necessidades de seus alunos. Segundo Gil (2006), o planejamento de ensino se configura como condição essencial para o êxito do trabalho do professor, pois “à medida que as ações docentes são planejadas, evita-se a improvisação, garante-se maior probabilidade de alcance dos objetivos, obtêm-se maior segurança na direção do ensino e, também, maior economia de tempo e de energia”.
+	
+As estratégias metodológicas, por si mesmas, não são garantia de eficácia do ensino. Elas só concorrerão para uma aprendizagem significativa na medida em que estiverem pautadas por um planejamento que leve em consideração à heterogeneidade dos sujeitos em formação.
+
+\section{Acessibilidade pedagógica}
+
+Um aspecto a ser observado pelos docentes no processo de ensino-aprendizagem é o da inclusão da pessoa com deficiência e da acessibilidade. A inclusão pode ser compreendida como um movimento social, político e educacional que vem defender o direito de todos os indivíduos participarem, de uma forma consciente e responsável, na sociedade de que fazem parte, e de serem aceitos e respeitados naquilo que os diferencia dos outros. Neste contexto, a acessibilidade, como uma das dimensões da inclusão, apresenta-se como possibilidade e:
+
+\begin{citacao}
+    “Condição de alcance para utilização, com segurança e autonomia, de espaços, mobiliários, equipamentos urbanos, edificações, transportes, informação e comunicação, inclusive seus sistemas e tecnologias, bem como de outros serviços e instalações abertos ao público, de uso público ou privados de uso coletivo, tanto na zona urbana como na rural, por pessoa com deficiência ou com mobilidade reduzida”. (LBI, nº 13.146/2015).
+\end{citacao}
+
+A acessibilidade engloba diversas dimensões, a saber: atitudinal, comunicacional, digital, instrumental, programática, arquitetônica e metodológica. Esta última, de acordo com Sassaki (2013), diz respeito à ausência de barreiras nas metodologias e técnicas de estudo. Assim sendo, ela está diretamente relacionada à prática docente, ou seja, a forma como os professores concebem conhecimento, aprendizagem, avaliação e inclusão educacional irá determinar, ou não, a remoção das barreiras pedagógicas.
+
+Buscando viabilizar o processo de ensino e aprendizagem dos estudantes com deficiência, serão realizadas adaptações curriculares dos conteúdos programáticos, flexibilizados os prazos para produção e entrega de atividades, bem como adotados processos avaliativos e recursos específicos que atendam às necessidades de cada estudante (pranchas de comunicação, texto impresso e ampliado, softwares ampliadores de comunicação alternativa, leitores de tela, entre outros recursos de tecnologia presentes na instituição).
+
+Os professores contarão com o apoio do Núcleo de Acessibilidade - NACES, através do serviço de Atendimento Educacional Especializado, assim como de tecnologias assistivas disponibilizadas nos Laboratórios de Acessibilidade - LA que se encontram em fase de implantação na Sede e nas Unidades Acadêmicas. Os estudantes com deficiência poderão, ainda, dispor de atendimento psicológico por meio do Setor de Saúde da UAG.
+
+\section{Projetos interdisciplinares}
+
+A interdisciplinaridade, segundo Japiassú (1976, p. 74), pode ser caracterizada pela “intensidade das trocas entre os especialistas e pelo grau de interação real das disciplinas no interior de um mesmo projeto de pesquisa”. Essa interação envolve não só aspectos metodológicos, mas também a adoção de uma postura dialógica frente a saberes e sujeitos. As estratégias de ensino interdisciplinares contribuem para a construção do que Morin (2002) denomina de "conhecimento pertinente”, isto é, uma visão de conjunto, no qual o contexto local e o global estão em relação de reciprocidade.
+	
+Partindo desse entendimento, o curso de Ciência da Computação oportuniza aos alunos o desenvolvimento de projetos interdisciplinares ao longo de sua formação. Para tanto, os professores vivenciam momentos coletivos de formação pedagógica e planejamento, elegendo, neste último caso, os objetivos dos projetos, as disciplinas que estarão envolvidas, os recursos necessários, às etapas de desenvolvimento e a avaliação.
+
+Nos projetos interdisciplinares, o curso também adota a PBL como uma de suas metodologias de ensino. A PBL tem por base a investigação como ponto de partida para a aquisição e integração de novos conhecimentos. Ela valoriza os conhecimentos prévios dos alunos, favorecendo a capacidade crítica de análise e construção de soluções para as situações-problema (BARROWS, 1986). Além das competências técnicas específicas exigidas por cada disciplina, a realização dos projetos contribuirá para desenvolver um conjunto de competências transversais, tais como a capacidade de comunicação, liderança, gestão de conflitos, tomada de decisão e gestão do tempo, dentre outras (CABRAL-CARDOSO; ESTEVÃO; SILVA, 2006), conforme a figura abaixo:
+
+\begin{figure}[!htb]
+    \centering
+    \caption{\label{fig:competencias-pbl}Competências trabalhadas na PBL.}
+    
+    \includegraphics[width=\textwidth]{images/competencias_pbl.png}
+  \end{figure}
+
+Na PBL, a avaliação não se apresenta exclusivamente como um mecanismo de atribuição de nota, mas busca o feedback do aluno no que diz respeito às suas dificuldades no processo de aprendizagem (DELISLE, 2000; CARVALHO, 2009). Neste sentido, cada uma das etapas de desenvolvimento dos projetos será acompanhada de forma sistemática pelos professores.	
+A próxima seção apresenta uma discussão mais ampla sobre a concepção de avaliação no âmbito deste projeto.
+
+14.6. Avaliação do ensino e da aprendizagem
+
+No decorrer da história da educação, foi atribuída à avaliação significados bastante diversos, resultantes das diferentes formas de conceber a relação entre ensino e aprendizagem. Apesar da pluralidade de definições e enfoques dados à avaliação, os estudos contemporâneos demonstram que avaliar para excluir ou meramente classificar a aprendizagem dos alunos está aquém do que de fato seriam as funções da avaliação (LUCKESI, 2003). Além disso, as práticas avaliativas exercidas pelos professores não podem ser entendidas em si mesmas, já que elas têm relação com as finalidades sociais mais amplas da educação.
+	
+Balizando-se por estas acepções, a avaliação no curso de Bacharelado em Ciência de Computação apresentará informações, em momentos diferenciados, acerca dos percursos de aprendizagens dos alunos e, também, sobre as práticas de ensino dos docentes (com vistas ao replanejamento do trabalho pedagógico). Esta compreensão é resultante do entendimento de que a avaliação atua como mediadora tanto do ensino quanto da aprendizagem (HOFFMAN, 2005). Assim, como uma atividade inerente à ação educativa, a avaliação:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Estará	diretamente vinculada aos objetivos e às disciplinas do curso; 
+    \item Ocorrerá de forma contínua, democrática, dinâmica, inclusiva, sistemática e intencional;
+    \item Considerará as especificidades de cada componente curricular;
+    \item Será pautada por critérios e instrumentos bem definidos;
+    \item Servirá de informação para a melhoria não só do resultado, mas do processo de formação dos alunos.
+    \item Levará	em conta as potencialidades dos estudantes considerando o real e não apenas o ideal.
+\end{enumerate}
+
+Evidentemente, cada tipo de conteúdo (conceitual, factual, procedimental e atitudinal) demanda formas específicas de ensinar e, por conseguinte, de avaliar. Conclui-se, portanto, a necessidade de os professores fazerem uso de variados instrumentos avaliativos apresentando, estes últimos, qualidade satisfatória, sob o risco de qualificar de forma inadequada os processos formativos dos discentes (SILVA, 2003). Portanto, os instrumentos escolhidos para atingir os objetivos pretendidos estarão adequados:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Às competências e habilidades que estão sendo avaliadas;
+    \item Aos conteúdos propostos e ministrados pelo docente; 
+    \item À linguagem, de modo que o aluno possa compreender exatamente o que está sendo solicitado dele; 
+    \item Ao processo de aprendizagem dos discentes.     
+\end{enumerate}
+
+No curso de Ciência da Computação, a avaliação ocorrerá, sistematicamente, durante todo o processo de ensino-aprendizagem, e não somente ao final de cada semestre. Por isso, será importante que não seja adotado, com exclusividade, uma única modalidade avaliativa (diagnóstica, processual ou somativa), mas que estas ocorram de forma articulada. Em determinados momentos poderão, ainda, ser estimuladas práticas de autoavaliação das aprendizagens, sendo estas condições didáticas importantes para a construção da autonomia dos estudantes.
+
+
+
+
+\begin{center}
+    \begin{scriptsize}
+      \begin{longtable}{p{5cm}p{10cm}}
+        \caption{\label{quadro:modalidades_da_avaliacao_da_aprendizagem}Modalidades da avaliação da aprendizagem.}\\
+      \toprule
+      \textbf{Modalidades da Avaliação} & \textbf{Descrição} \\ 
+      \midrule
+        Diagnóstica 
+                                & Dar-se-á antes e durante o processo de ensino e aprendizagem, com diferentes finalidades. Na etapa inicial, o propósito será o de sondar em que estágio da aprendizagem se encontra o discente. Durante o processo de aquisição/construção do conhecimento ela poderá ser utilizada para acompanhar os alunos, de modo a identificar as possíveis dificuldades de aprendizagem e possibilitar a implementação de recursos para superá-las. \\ \midrule
+        Processual (ou formativa)
+                                & Ocorrerá durante todo o decorrer do período letivo, com a finalidade de avaliar se os discentes estão conseguindo atingir as competências e habilidades previstas. \\ \midrule
+        Somativa (ou avaliação dos resultados da aprendizagem)
+                                & Será realizada ao fim do período de ensino, com o propósito de verificar o que o estudante efetivamente aprendeu, fornecendo-lhe um feedback quanto ao nível de aprendizagem alcançado. \\
+
+      \bottomrule
+      \end{longtable}
+    \end{scriptsize}      
+  \end{center}
+
+
+
+
+
+
+O \textit{feedback} das avaliações constitui um aspecto fundamental no processo de acompanhamento do desenvolvimento do aluno, tendo em vista a construção, reconstrução e apropriação do conhecimento. Diante disso, também será assegurado aos estudantes o conhecimento dos pressupostos avaliativos que regem o curso de Bacharelado em Ciência de Computação, conforme o Parecer CNE/CES nº 236/2009.
+	
+A Universidade, por meio da Resolução CEPE/UFRPE nº494/2010, estabeleceu os procedimentos normativos no que tange ao registro das avaliações no âmbito do ensino da graduação. De acordo com este dispositivo, em cada disciplina serão realizadas três (3) verificações de aprendizagem e um exame final. Cada verificação de aprendizagem poderá ser feita através de uma única prova escrita ou de quaisquer outros instrumentos de avaliação, dependendo da natureza da disciplina e da orientação docente. As atividades avaliativas, além do seu caráter formativo e processual, terão, igualmente, um caráter cumulativo. Neste caso, “para efeito do cômputo do aproveitamento do aluno, nas verificações de aprendizagem e no exame final, serão atribuídas notas variando de zero (0) a dez (10), permitindo-se seu fracionamento em centésimos” (Art. 5º, §1º).
+
+A frequência às aulas e demais atividades escolares será obrigatória, conside\-ran\-do-se reprovado na disciplina o aluno que não comparecer ao mínimo de 75\% (setenta e cinco por cento) das aulas ministradas (teóricas e práticas), ressalvados os casos previstos em lei (Art. 8º, Inciso I). Para fins de aprovação, além do mínimo de frequência exigido, o aluno deverá possuir média final igual ou superior a sete (7,0) em duas verificações da aprendizagem ou média final superior a cinco (5) entre a média de duas verificações de aprendizagem e a nota do exame final (Art. 7º, incisos I e II).
+
+As disciplinas ministradas na modalidade EAD, terão suas avaliações na forma presencial, de acordo com a Portaria MEC nº 1.134/2016.
+
+\section{Acessibilidade nos processos avaliativos}
+
+Ainda no tocante à avaliação pedagógica, o curso de Bacharelado em Ciência da Computação encontra-se balizado, também, pela Política Nacional para Educação Especial na perspectiva da Educação Inclusiva (BRASIL, 2008). Nesta, a avaliação configura “uma ação pedagógica processual e formativa que analisa o desempenho do aluno em relação ao seu progresso individual, prevalecendo [\ldots] os aspectos qualitativos que indiquem as intervenções pedagógicas do professor”.
+
+Com esse entendimento, o princípio da \textit{inclusão} norteará o processo de ensino e aprendizagem, garantindo que os professores, ao realizarem suas avaliações, promovam adaptações em função das necessidades educacionais especiais dos estudantes. Para os alunos que são considerados público-alvo da educação inclusiva (pessoas com deficiência, transtornos globais do desenvolvimento e com altas habilidades/superdotação), os docentes utilizarão, dentre outras estratégias, as seguintes adaptações avaliativas: \textit{dilatação de tempo de avaliação, apresentações de trabalhos em dupla, em equipes ou individual, prova oral, individualizada, sinalizada, ampliada, em Braile, em Libras, com recurso de tecnologias assistivas, permanência de profissional de apoio ou intérprete de Libras em sala e etc}.
+
+É possível, assim, afirmar que, ao se adaptar uma avaliação ou uma estratégia didática, objetiva-se assegurar a equiparação de oportunidades, uma vez que todos os alunos são capazes de aprender, independente da sua idade cronológica, das suas limitações e de suas especificidades. Desse modo, o respeito à individualidade e ao tempo de cada um constitui um princípio fundamental para uma educação inclusiva.
+
+\section{Integração entre as atividades de ensino, pesquisa e extensão}
+
+Ensino, Pesquisa e Extensão constituem as áreas de atuação da Universidade e, conforme o disposto na Constituição Federal, em seu Art. 207, devem ser indissociáveis entre si. Neste sentido, o Programa de Educação Tutorial – PET, financiado pelo MEC, possibilita que os estudantes tenham uma ampla formação, na medida em que propõe o desenvolvimento de atividades que envolvem, de forma articulada, ensino, pesquisa e extensão. São alguns objetivos do Programa:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Desenvolver atividades acadêmicas em padrões de qualidade de excelência, mediante grupos 	de aprendizagem tutorial de natureza coletiva e interdisciplinar;
+    \item Contribuir para a elevação da qualidade da formação acadêmica dos alunos de graduação;
+    \item Formular novas estratégias de	desenvolvimento e modernização do ensino superior no país;
+    \item Introduzir novas práticas pedagógicas na graduação; 
+    \item Contribuir com a política de diversidade na IES, por meio de ações afirmativas em defesa da equidade socioeconômica, étnico-racial e de gênero.
+\end{enumerate}
+
+	Na UFRPE existem 18 grupos PET organizados em quatro eixos (Original, Conexões Saberes, Engenharias e Interdisciplinar). No que tange à prática iniciação à pesquisa, esta é incentivada por meio do Programa Institucional de Bolsas de Iniciação Científica – PIBIC, financiado pelo Conselho Nacional de Desenvolvimento Científico e Tecnológico – CNPq, pela Fundação de Amparo à Ciência e Tecnologia do Estado de Pernambuco – FACEPE e pela própria Universidade. Dentre os objetivos do PIBIC, está o de:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Despertar a vocação científica e incentivar novos talentos entre estudantes de graduação;
+    \item Estimular uma maior articulação entre a graduação e pós-graduação;
+    \item Estimular pesquisadores produtivos a envolverem alunos de graduação nas atividades científica, tecnológica e artístico-cultural;
+    \item Proporcionar ao bolsista, orientado por pesquisador qualificado, a aprendizagem de técnicas e métodos de pesquisa, bem como estimular o desenvolvimento do pensar cientificamente e da criatividade, decorrentes das condições criadas pelo confronto direto com os  problemas de pesquisa;
+    \item Ampliar o acesso e a integração do estudante à cultura científica.
+\end{enumerate}
+
+Outro importante exemplo é o Programa de Iniciação Científica – PIC, por meio do qual são concedidas cotas de orientação aos docentes/pesquisadores sem concessão de bolsas aos discentes. Trata-se de uma ação que amplia a formação de discentes/pesquisadores na instituição compartilhando dos objetivos do PIBIC. Já o Programa Institucional de Bolsas de Iniciação em Desenvolvimento Tecnológico e Inovação – PIBITI, financiado pelo CNPq, objetiva contribuir para a:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Formação e inserção de estudantes em atividades de pesquisa,  desenvolvimento tecnológico e inovação;
+    \item Formação do cidadão pleno, com condições de participar de forma criativa e empreendedora na sua comunidade;
+    \item Formação de recursos humanos que se dedicarão ao fortalecimento da capacidade inovadora das 	empresas no Brasil.
+\end{enumerate}
+
+No curso de Ciência de Computação, a prática de iniciação à pesquisa também estará presente no cotidiano da “sala de aula”, na medida em que “aprender com pesquisa é um processo dialógico que envolve a problematização do conhecimento, a construção de argumentos e sua respectiva validação” (LAMPERT, 2008). Isso significa que o professor estimulará situações que possibilitem o questionamento sistemático de um determinado objeto, levando, em seguida, à elaboração de uma estrutura argumentativa com base na análise de diferentes fontes para, enfim, proceder às formas de divulgação dos resultados alcançados, tais como a redação de artigos e realização de seminários. Este processo envolve várias etapas e pressupõe um tempo e orientação específicos para a sua realização, de modo que o aluno possa desenvolver algumas aprendizagens fundamentais para a sua profissão, conforme destaca Masetto (2012, p. 118):
+
+\begin{enumerate}[label=(\alph*)]
+    \item Selecionar, organizar, comparar, analisar, correlacionar dados e informações;
+    \item Fazer inferências, levantar hipóteses, checá-las, comprová-las, refutá-las e tirar conclusões;
+    \item Elaborar um relatório.
+\end{enumerate}
+
+O ensino com pesquisa possibilita relacionar teoria e prática, além do desenvolver habilidades de comunicação e expressão oral e escrita. O tema da pesquisa pode estar articulado com vivências realizadas pelos estudantes e professores em projetos e programas desenvolvidos em parceria com ONGs, movimentos sociais, prefeituras, escolas, empresas, cooperativas, etc. Na UFRPE, o Programa Institucional de Bolsas de Extensão (BEXT) apoia projetos extensionistas nas temáticas de Saúde, Educação, Cultura, Tecnologia, Direitos Humanos, Trabalho, Meio Ambiente e Comunicação. Dentre os objetivos do BEXT, está o de:
+
+\begin{enumerate}[label=(\alph*)]
+    \item Estimular a participação de estudantes em ações de extensão, com vistas a promover a cidadania e a inclusão social, bem como a aprendizagem mediante a relação entre teoria e prática;
+    \item Contribuir para a transformação social da comunidade-alvo;
+    \item Priorizar a transferência de tecnologias capazes de proporcionar a sustentabilidade em comunidades localizadas, preferencialmente, na “zona rural” de Pernambuco. 	
+\end{enumerate}
+
+A extensão universitária constitui um elemento para “problematizar o ensino pela vivência presencial, solidária e transformadora” (PIVETTA et al, 2010). A articulação entre ensino e extensão pressupõe uma noção ampliada de “sala de aula”, incluindo “todos os espaços, dentro e fora da Universidade, em que se aprende e se (re)constrói o processo histórico-social em suas múltiplas determinações e facetas” (FORPROEX, 2012). Uma primeira consequência desse movimento é a geração de novas tecnologias e serviços oriundos da dialogicidade entre saberes acadêmicos e não acadêmicos. Outro efeito diz respeito ao impacto na formação dos futuros Bacharéis em Ciência da Computação a partir da percepção e do redimensionamento de conhecimentos, atitudes e valores em torno de sua profissão. Os professores deverão, portanto, estar atentos a esse contexto buscando locupletar o ensino por meio do engajamento com “problemas que são candentes à sociedade em que ela [a Universidade] está inserida” (SAVIANI, 1984).  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter Apoio ao Discente
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{APOIO AO DISCENTE}
+\label{cap_apoio_ao_discente}
+
+Preocupada com a qualidade social da formação, a UFRPE promove ações e programas de apoio estudantil buscando garantir a igualdade de oportunidades, a melhoria do desempenho acadêmico e, por conseguinte, combater as situações de retenção e evasão. Neste sentido, a Política de Assistência Estudantil desta Instituição tem como propósitos basilares:
+
+\begin{enumerate}
+    \item Democratizar as condições de permanência dos jovens na educação superior pública federal;
+    \item Minimizar os efeitos das desigualdades sociais e regionais na permanência e conclusão da Educação Superior;
+    \item Reduzir as taxas de retenção e evasão;
+    \item Contribuir para a promoção da inclusão social por meio da educação.
+	Diante do exposto, é exibido no no Quadro 18 alguns programas institucionais de apoio ao estudante da UFRPE.
+\end{enumerate}
+
+\begin{center}
+  
+  \begin{scriptsize}
+    \begin{longtable}{p{3.2cm}p{3cm}p{8cm}}
+      \caption{\label{quadro:programas-apoio-estudantil-ufrpe}Programas de Apoio Estudantil da UFRPE.} \\
+      \toprule
+      \textbf{Programa} & \textbf{Resolução} & \textbf{Descrição}\\ \midrule
+      Apoio ao ingressante & Res. CEPE/UFRPE nº 023/2017 & Voltado aos alunos ingressantes nos cursos de graduação presencial, regularmente matriculados, e em situação de vulnerabilidade socioeconômica.\\ \midrule
+      Apoio ao Discente & Res. CEPE/UFRPE nº 021/2017 & Voltado aos alunos de primeira graduação, regularmente matriculados em cursos de graduação presenciais, e estarem em situação e vulnerabilidade socioeconômica. As bolsas contemplam: \newline
+      1. Apoio Acadêmico; \newline
+      2. Auxílio Transporte; \newline
+      3. Auxílio Alimentação. \\ \midrule
+      Apoio à Gestante & Res. CEPE/UFRPE nº 112/2014 & Para as discentes que tenham um filho no período da graduação. Duração máxima: 3 anos e 11 meses. \\ \midrule
+      Auxílio Moradia & Res. CEPE/UFRPE nº 062/2012 & Para os estudantes de graduação, de cursos presenciais, regularmente matriculados, residentes fora do município de oferta do curso, reconhecidamente em situação de vulnerabilidade socioeconômica durante a realização da graduação. \\ \midrule
+      Auxílio \newline Recepção/Hospedagem & Res. CEPE/UFRPE nº 081/2013 & Para discentes provenientes dos programas de Cooperação Internacional \\ \midrule
+      Ajuda de Custo & Res. CEPE/UFRPE nº188/2012 & Destinado a cobrir parte das despesas do aluno com inscrição em eventos científicos, aquisição de passagens, hospedagem e alimentação. \\ \midrule
+      Auxílio Manutenção & Res. CEPE/UFRPE nº 027/2017 & Objetiva promover a permanência de alunos residentes, em situação de vulnerabilidade socioeconômica, durante a realização do curso de graduação. \\ \midrule
+      Ajuda de Custo para Jogos Estudantis & Res. CEPE/UFRPE nº 184/2007 & Destinado a cobrir despesas com aquisição de passagens e, excepcionalmente, aluguel de transporte coletivo, hospedagem e alimentação para a participação em jogos estudantis estaduais, regionais e nacionais.\\ \midrule
+      Promoção ao Esporte & Res. CEPE/UFRPE nº109/2016 & Para estudantes de primeira graduação presencial, regularmente matriculados no curso e na Associação Atlética Acadêmica e que apresentem situação de vulnerabilidade econômica.\\
+    \bottomrule
+\end{longtable}
+\end{scriptsize}
+\end{center}
+
+Além da relação constante no Quadro supracitado, são disponibilizados, através da PREG, os seguintes Programas: Atividade de Vivência Interdisciplinar – PAVI, Monitoria Acadêmica, PET e Incentivo Acadêmico – BIA. No que diz respeito à oferta de bolsas de iniciação científica e de extensão, estas são, respectivamente, viabilizadas pela Pró-Reitoria de Pesquisa e Pós-Graduação – PRPPG e a Pró-Reitoria de Extensão – PRAE, ambas vinculadas a projetos de pesquisa e extensão da UFRPE.
+
+Destaca-se, ainda, que a Pró-Reitoria de Gestão Estudantil e Inclusão – PROGESTI dispõe de plantão psicológico para atendimento aos discentes da Instituição, além de acompanhamento pedagógico com o objetivo de auxiliar o estudante em seu processo educacional através de um planejamento individualizado de ações específicas de aprendizagem.
+
+Já a Assessoria de Cooperação Internacional – ACEI, estabelecida em 2007, tem a finalidade de ampliar e consolidar a internacionalização e os laços de cooperação interinstitucional da Universidade, proporcionando à comunidade acadêmica oportunidades de usufruir da mobilidade como forma de fortalecer o desempenho acadêmico e fomentar experiências culturais.
+
+O curso de Bacharelado em Ciência da Computação possuirá uma Comissão de Orientação e Acompanhamento Acadêmico – COAA com o objetivo de acompanhar e orientar os estudantes em situação de insuficiência de rendimento, conforme a Resolução CEPE/UFRPE nº 154/2001. A COAA é composta pelo Coordenador do Curso, 3 (três) professores e 1 (um) estudante, indicados pela Coordenação e homologada pelo CCD. 
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter ACESSIBILIDADE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\chapter{ACESSIBILIDADE}
+\label{cap_acessibilidade}
+
+A Resolução N° 090/2013 é o documento inicial dentro da UFRPE que institui o NACES (Núcleo de Acessibilidade), na Sede de nossa Universidade, que é composto pela Coordenação do Núcleo, pelos Setores de Acessibilidade espalhados pelas Unidades Acadêmicas, e Comissão de Acessibilidade – grupo de representantes da comunidade acadêmica – que atua de forma propositiva.
+
+As ações, tanto do NACES bem como dos Setores de Acessibilidade, foram delineadas com a Resolução Nº 172/2013 de 03 de setembro, caracterizando assim sua natureza e finalidade:
+
+\begin{citacao}
+    Art. 1º – O Núcleo de Acessibilidade (NACES) da Universidade Federal Rural de Pernambuco é um órgão executivo da Administração Superior, diretamente subordinado à Reitoria e tem por finalidade atender aos discentes, docentes, técnico-administrativos e terceirizados com deficiência ou com mobilidade reduzida, quanto ao seu acesso e permanência na Universidade Federal Rural de Pernambuco (UFRPE), promovendo e desenvolvendo ações que visem eliminar ou minimizar barreiras físicas, atitudinais, pedagógicas e na comunicação e informação que restringem a participação, a autonomia pessoal e do desenvolvimento, social e profissional.
+\end{citacao}
+
+Ainda segundo a Resolução Nº 172/2013, os setores de acessibilidade da UFRPE deverão ser compostos por uma equipe multidisciplinar, formada por: Psicólogo, Brailista, Pedagogo e Tradutor/Intérprete de LIBRAS – Língua Brasileira de Sinais. Atualmente, \textbf{o Setor de Acessibilidade da UAG é formado por uma Pedagoga e dois Tradutores/Intérpretes de LIBRAS}.
+
+O Setor de Acessibilidade, \textbf{atua com o objetivo de mapear/localizar e intervir nas demandas existentes}, quando as demandas extrapolam as atribuições dos servidores lotados, as mesmas serão encaminhadas à Coordenação do NACES, para que sejam dados os devidos encaminhamentos. Utiliza-se como ferramentas de trabalho para a identificação de demandas {\bfseries \textit{Formulários de Acessibilidade}} (para docentes, discentes, técnicos e terceirizados), no caso dos discentes, no ato da matrícula é disponibilizado o formulário para fins de atualização dos dados do setor e posterior intervenção.
+
+As demandas do setor emergem tanto da comunidade da UAG (direções, demais setores, docentes, discentes, técnicos e terceirizados) como da própria sede através do NACES.
+
+Finalmente, ressalta-se que o Setor de Acessibilidade da UAG tem como atribuição dirimir possíveis dúvidas e disponibilizar informações acerca da temática “acessibilidade”, bem como temas que perpassam por ela, a fim de quebrar tabus e mitos.
+
+\section{Acessibilidade Pedagógica}
+
+A Resolução 172/2013, especificamente em seu Art. 4º, que dispõe sobre a organização e composição dos Setores de Acessibilidade das Unidades, prevê a figura do Pedagogo, para compor a equipe de profissionais responsáveis pelas ações ligadas ao processo de inclusão e acessibilidade na Unidade Acadêmica de Garanhuns - UAG.
+
+O planejamento das atividades específicas, devido ao caráter desafiador do Perfil da Acessibilidade Pedagógica definido na própria Resolução, tem demandado tempo para sua estruturação e, vem ocorrendo mediante estudo e pesquisa em literatura específica, legislação, reunião e discussão com os profissionais que compõem o NACES, sem perder de vista o Regimento interno do Núcleo de Acessibilidade da UFRPE, e por fim o teor da descrição sumária dos cargos técnico-administrativos em educação, disponibilizada pela Gestão de Pessoas dessa Instituição, especificamente o de Pedagogo.
+
+Assim sendo, o Serviço de Acessibilidade Pedagógica, através do desenvolvimento das ações abaixo relacionadas, (que poderão ser redefinidas de acordo com as demandas), integrado com outros serviços do Setor, participará na efetivação da política de acessibilidade da UAG/UFRPE.
+
+\begin{center}
+  
+  \begin{scriptsize}
+    \begin{longtable}{p{5cm}p{9cm}}
+      \caption{\label{quadro:acoes-pedagogicas}Ações pedagógicas.}\\
+      \toprule
+      \textbf{Responsável} & \textbf{Ações específicas}\\ 
+        \midrule
+        Maria Gorete Rodrigues de Siqueira \newline Pedagoga \newline \href{mailto:acessibilidadepedagogica@ufrpe.br}{acessibilidadepedagogica@ufrpe.br} 
+        & - Mapeamento dos discentes com demanda de acessibilidade pedagógico;\\
+        & - Entrevistas e/ou aplicação de questionários aos discentes com demandas de acessibilidade pedagógica para levantamento das necessidades;\\
+        \addlinespace
+        & - Acompanhamento pedagógico do desempenho acadêmico dos estudantes com deficiência e/ou mobilidade reduzida cadastrados no Setor através de acesso ao Sig@;\\
+        \addlinespace
+        & - Realização de reuniões semestrais com discentes cadastrados no Setor, além de atendimentos individualizados;\\
+        \addlinespace
+        & - Encaminhamentos das demandas a outros profissionais e/ou serviço;\\
+        \addlinespace
+        & - Reunião com coordenadores e professores no sentido de orientar sobre as necessidades didático-pedagógicas do discente;\\
+        \addlinespace
+        & - Organização de acervo bibliográfico local (Setor de Acessibilidade) com a temática específica;\\
+        \addlinespace
+        & - Participação em projetos de pesquisa e extensão sobre a temática de educação inclusiva;	\\
+        \addlinespace
+        & - Participação em Seminários e Cursos relacionados a temática de educação inclusiva;		\\
+        \addlinespace
+        & - Trabalho colaborativo com os outros profissionais.\\
+        
+      \bottomrule
+\end{longtable}
+\end{scriptsize}      
+\end{center}
+
+\section{Acessibilidade Comunicacional em LIBRAS}
+
+Texto extraído da Dissertação “\textbf{A IDENTIDADE DO PROFISSIONAL TRADUTOR E INTÉRPRETE DE LÍNGUA BRASILEIRA DE SINAIS – LIBRAS}: das suas concepções às suas práticas” de Carvalho, 2015, no que toca a página 25, do Capítulo II).
+
+\begin{citacao}
+    O tradutor/intérprete atua na fronteira entre os sentidos da língua de origem e da língua alvo, com os processos de interpretação relacionando-se com o contexto no qual o signo é formado. [\ldots]. A interpretação é um processo ativo, que procede de sentidos que se encontram, existindo, apenas, na relação entre eles, como um elo nessa cadeia de sentidos (LACERDA, 2009, p. 8).
+\end{citacao}
+
+Tratando da relevância e complexidade do trabalho do intérprete, Lima (2006) aponta que os intérpretes de língua de sinais, são profissionais que não trabalham apenas com a língua utilizada pela comunidade surda, vão mais além, e interpretam também o que ocorre no âmbito da expressão desta língua: a cultura, a história, os movimentos sociais e políticos.
+
+A tradução de um texto de português para LIBRAS apresenta variáveis distintas das realizadas entre as línguas orais, por exemplo, as modalidades das línguas envolvidas. O português, língua de modalidade oral - auditiva, é expressa através dos sons e decodificada pela audição, enquanto que a LIBRAS, língua de modalidade gestual - visual, é produzida por movimentos, principalmente das mãos e decodificada pelos olhos. Sobre este assunto Segala conclui:
+
+\begin{citacao}
+    (\ldots) para traduzir os textos como língua-fonte, Português brasileiro, para Língua Brasileira de Sinais – Libras, o tradutor deve ter domínio em Língua Portuguesa e Libras; suas variações linguísticas, sociais e culturais (bilíngues- bimodais), e também ter conhecimento do tema, ou seja, da área e suas normas linguístico- culturais. A Língua de chegada (Libras) deve ser clara e moderna, e utilizar os sinais mais comuns aos surdos, os usuários de Libras, não seguindo a estrutura da Língua Portuguesa, nunca traduzindo literalmente palavra por sinais, obedecendo a ordem dos parágrafos sem a necessidade de se preocupar com virgulação, e sendo fiel ao sentido dos textos para Libras, principalmente para que os usuários de Libras entendam e possam interpretar os textos em Libras (SEGALA, 2010, p. 57).
+\end{citacao}
+
+
+\begin{center}
+  
+  \begin{scriptsize}
+    \begin{longtable}{p{5cm}p{9cm}}
+      \caption{\label{quadro:acoes-promocao-acessibilidade}Ações de promoção à acessibilidade.}\\
+      \toprule
+      \textbf{Responsável} & \textbf{Ações específicas}\\ 
+        \midrule
+        Geyson Lima de Carvalho \newline Núbia Poliane C. T. Pires de Lima \newline acessibilidade.uag@ufrpe.br
+        & - Promover acessibilidade comunicacional no que tange ao par linguístico Língua Portuguesa e LIBRAS em eventos, aulas e atividades promovidos pela UFRPE em que haja a demanda (usuários que necessitem do serviço de tradução/interpretação);\\
+        \addlinespace
+        & - Tornar acessível em LIBRAS documentos, editais e outros materiais de interesse da UFRPE;\\
+        
+      \bottomrule
+\end{longtable}
+\end{scriptsize}      
+\end{center}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter POLÍTICAS INSTITUCIONAIS NO ÂMBITO DO CURSO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+\chapter{POLÍTICAS INSTITUCIONAIS NO ÂMBITO DO CURSO}
+
+Entre os diversos espaços de construção do conhecimento, a Universidade é um lugar privilegiado de desenvolvimento humano, científico-tecnológico e social. Contudo, a qualidade da educação e o sucesso dos profissionais formados pelas universidades dependem, em grande medida, do nível de interação e articulação entre os três pilares balizadores da formação universitária: o ensino, a pesquisa e extensão.
+
+Partindo do entendimento de que estas atividades precisam atuar de forma complementar e interdependente, este PPC está em sintonia com o PPI da UFRPE. O PPI integra o PDI UFRPE 2013-2020, atualizado pela comunidade acadêmica entre 2016 e 2017. A estrutura e as diretrizes para a elaboração do PDI passaram a ser definidas pelo Decreto nº 9.235/2017 (BRASIL, 2017). Neste contexto, as diretrizes das políticas institucionais no âmbito do ensino, pesquisa e extensão, preconizadas no PPI e com as quais o curso dialoga de forma mais estreita, são as seguintes:
+
+\begin{itemize}
+	\item Interação e organicidade entre as modalidades de ensino presencial e à distância;
+	\item Implantação de metodologia de ensino híbrido;
+	\item Apoio e incentivo à elaboração de material didático adequado para a EaD.
+\end{itemize}
+ 	
+As modalidades de ensino presencial e a distância não são concebidas de forma dicotômica, mas complementares em um mesmo planejamento didático. Tal aspecto se traduz tanto pela concepção híbrida do processo de ensino e aprendizagem presente na metodologia e avaliação (Capítulo~\ref{cap_metodologia_e_avaliacao}), quanto pelo suporte promovido por equipe multiprofissional ao desenvolvimento e acompanhamento das atividades semipresenciais e a distância (********* seção 9.1).
+
+\begin{itemize}
+	\item Políticas de permanência nos cursos de graduação;	
+	\item Elevação da taxa de sucesso, com ações de combate à evasão e ao abandono;
+	\item Política de acompanhamento do estudante egresso.
+\end{itemize}
  
-Para atender ao perfil profissional definido, as atividades do curso priorizam o
-exercício dos requisitos inerentes ao desempenho da profissão, a citar:
+Uma formação de qualidade não está dissociada da existência de determinadas condições sociais, econômicas e pedagógicas necessárias ao desenvolvimento do estudante durante o curso. Em nível institucional, os programas da UFRPE descritos na Capítulo~\ref{cap_apoio_ao_discente}, oferecem suporte ao estudante no que tange aos mais variados aspectos, desde alimentação até bolsas de manutenção acadêmica e iniciação à pesquisa, além do estímulo a atividades de extensão. O acompanhamento sistemático do desempenho acadêmico do aluno também será objeto de atenção, de modo a identificar, prematuramente, demandas por um apoio pedagógico e/ou psicológico mais próximo. Tal acompanhamento ocorrerá por meio da COAA, bem como por meio de autoavaliações periódicas no âmbito do curso (Capítulo~\ref{cap_gestao_do_curso_e_processos_de_avaliacao_interna_e_externa}). No caso do estudante egresso, o curso estabelecerá articulações com a Coordenação de Acompanhamento e Monitoramento de Egressos - CAME, de modo a fomentar formações, encontros e seminários sobre o universo profissional do bacharel em ciência da computação. A partir da primeira turma formada, o curso utilizará os relatórios da CAME em seu processo de autoavaliação e planejamento.
 
 \begin{itemize}
-  \item método e disciplina de trabalho;
-  \item raciocínio lógico e abstrato; 
-  \item capacidade de trabalho em equipe; 
-  \item criatividade, produtividade e iniciativa; 
-  \item disposição para efetuar trabalho complexo e minucioso; 
-  \item compromisso com o desenvolvimento tecnológico; 
-  \item compromisso com o ser humano; 
-  \item senso crítico, seriedade e responsabilidade. 
+	\item Promoção de estratégias que levem ao avanço nos indicadores de qualidade dos cursos de graduação;
+	\item Formação continuada dos docentes a partir das necessidades de suas áreas específicas de formação e didático-pedagógicas;
+	\item Oferta de formação continuada a técnico-administrativos, tutores e coordenadores de curso.
 \end{itemize}
 
+Considerando que na definição da qualidade do curso concorrem diversos fatores, o planejamento e a autoavaliação sistemáticos proporcionarão a elaboração de planos de ações que apontarão aspectos a serem corrigidos e aprimorados, conforme exposto na seção 16. No caso da formação docente, observa-se que esta já é uma prática estabelecida pela UFRPE, através dos cursos de atualização didático-pedagógica (Resolução CEPE/UFRPE nº 211/2009). No âmbito do curso será proposta, em parceria com a PREG, uma formação específica para os professores de Ciência da Computação, considerando o trabalho com o Ensino Híbrido e a PBL. Também serão promovidas formações para os tutores, o coordenador do curso e membros da equipe multidisciplinar.	 
+	 	
+\begin{itemize}
+	\item Estímulo à produção científica e tecnológica; 
+	Fomento à construção e à socialização de tecnologias, incluindo as sociais, a fim de promover a sustentabilidade de comunidades localizadas na zona rural do estado de Pernambuco; 	
+	Promoção da extensão enquanto processo educativo, cultural e científico que articulem ensino e pesquisa, integrando as várias áreas do conhecimento e aproximando diferentes sujeitos sociais com vistas à construção de uma sociedade igualitária e justa.
+\end{itemize}
 
-\section{Egresso}
-
-Do egresso de um curso de Bacharelado em Ciência da Computação é exigida uma
-predisposição e aptidões para a área, além de um conjunto de competências, 
-habilidades e atitudes a serem adquiridas durante a realização do curso.
-
-\subsection{Definição do perfil profissional}
-
-Por definição, o Bacharel em Ciência da Computação deve ser um profissional 
-qualificado para a pesquisa e desenvolvimento na área de computação, para  o
-projeto e construção de hardware e software básico e também para o uso de 
-sistemas computadorizados em outras áreas da atividade humana, a fim de
-viabilizar  ou aumentar a produtividade e a qualidade de todos os tipos de
-procedimentos.  Na UFRPE todo egresso deve ser um profissional(1)  com domínio e
-capacidade para trabalhar na área da Computação, desenvolvendo projetos de
-computadores  e sistemas de computação, programas e sistemas de informação; (2)
-atento  ao caráter ecológico, social e ético; e (3) que exerça suas atividades
-na  sociedade com responsabilidade.
-
-\subsection{Problemas que os egressos deverão estar aptos a resolver}
-
-Dado o perfil profissional desejado (seção 1), o egresso deverá estar apto a resolver as seguintes classes de problemas: 
+O envolvimento com a pesquisa, em nível de graduação, constitui elemento importante na formação do bacharel em ciência da computação, quando consideramos o seu perfil profissional (Capítulo~\ref{cap_campo_de_atuacao_profissional}). A inserção na prática da pesquisa ocorrerá tanto em nível de programas de iniciação científica, como o PIBIC, quanto por meio do desenvolvimento de projetos interdisciplinares. A pesquisa também se apresenta como um aspecto do processo de ensino e aprendizagem (Capítulo~\ref{cap_metodologia_e_avaliacao}). A extensão, no momento em que dialoga com as demandas sociais, econômicas e culturais da região, propicia aos estudantes o envolvimento com realidades diversas e o desenvolvimento de soluções para os problemas demandados pelos diversos atores sociais. O desenvolvimento de práticas articuladas de ensino, pesquisa e extensão também encontram no PET um espaço profícuo para a sua realização, contribuindo, assim, para uma formação mais orgânica do futuro profissional.	 	 	
 
 \begin{itemize}
-  \item concepção, especificação, projeto, construção, avaliação e adaptação de sistemas digitais; 
-  \item análise e projeto de estrutura lógica e funcional de computadores e sua
-implementação;
-  \item desenvolvimento e implementação de software básico e de apoio para
-  sistemas computacionais;
-  \item projeto e desenvolvimento de sistemas e programas usando linguagens de
-  programação;
-  \item projeto e desenvolvimento de sistemas de estruturação de informação; 
-  \item projeto e desenvolvimento de redes de processamento local e remota, em
-  matéria de hardware e de software;
+	\item Promoção de eventos acadêmicos;
+	\item Intensificação do envolvimento da instituição na participação e organização de eventos científicos, educativos, artísticos e culturais locais, regionais, nacionais e internacionais;
 \end{itemize}
 
-O egresso do curso de Bacharelado em Ciência da Computação deve estar
-preparado para propor soluções inovadoras e  adequadas para problemas propostos,
-capacitado a acompanhar e avaliar avanços  tecnológicos em computação, bem como
-aplicar e implementar as evoluções, reposições e adaptações que se façam
-necessárias, tanto de forma reativa com pró-ativa, logo deve estar apto a
-desenvolver as seguintes funções no mercado de trabalho:
+O curso estimulará a realização de eventos acadêmicos, bem como a participação dos estudantes em seminários, encontros e congressos. Observe-se que a UFRPE dispõe de um evento anual onde os alunos poderão apresentar os resultados de suas pesquisas e atividades; trata-se da Jornada de Ensino, Pesquisa e Extensão – JEPEX. Considera-se que a participação em tais eventos integra a formação dos bacharéis. No âmbito do curso, tais eventos poderão integrar o planejamento anual das atividades.	 	 	
 
 \begin{itemize}
-  \item \textbf{empreendedor} --- descobrimento e empreendimento de novas
-  oportunidades para aplicações usando sistemas computacionais e avaliando a 
-  conveniência de se investir no desenvolvimento da aplicação;
-  \item \textbf{consultor} --- consultoria e assessoria a empresas de diversas
-  áreas no que tange ao uso adequado de sistemas computacionais;
-  \item \textbf{coordenador de equipe} --- coordenação de equipes envolvidas em
-  projetos na área de computação e informática;
-  \item \textbf{membro de equipe} --- participação de forma colaborativa e 
-  integrada de equipes que desenvolvem projetos na área de informática;
-  \item \textbf{pesquisador} --- participação em projetos de pesquisa científica
-  e tecnológica.
+	\item Estímulo à cultura do empreendedorismo econômico e social na instituição através do fortalecimento das ações das incubadoras existentes (INCUBACOOP e INCUBATEC), da ampliação dos editais e da promoção de novas incubadoras; 	
+	\item Ampliação do diálogo da Universidade com setores da iniciativa pública e privada em geral, a fim de intensificar ações de extensão em regime colaborativo;
 \end{itemize}
+
+Considerando os objetivos do curso expressos no Capítulo~\ref{cap_objetivos_do_curso}, o empreendedorismo integra a formação do Bacharel em Ciência da Computação. Neste sentido, o curso, em articulação com o Núcleo de Relações Institucionais e Convênios – NURIC, deverá buscar parcerias com instituições públicas, privadas e sem fins lucrativos. Do mesmo modo, serão estimulados a realização de projetos e eventos que aproximem os estudantes da cultura do empreendedorismo econômico e social, com especial atenção, ao contexto regional da UAG.	 	 	
+
+\begin{itemize}
+	\item Reforço das ações de promoção dos valores democráticos, da justiça social e da liberdade, de garantia de direitos sociais e individuais e do combate a toda forma de discriminação – étnica, de gênero, geracional, social, sexual, religiosa, entre outras;
+	\item Compromisso com a educação de qualidade, inclusiva e acessível a todos.
+\end{itemize}
+
+Considerando os objetivos do curso expressos no Capítulo~\ref{cap_objetivos_do_curso}, a formação do Bacharel em Ciência da Computação não prescindirá de uma discussão acerca da promoção dos valores democráticos, justiça social, direitos humanos e luta contra a discriminação. Esse debate ocorrerá de forma transversal no currículo, além de estar presente em eventos, ações e projetos. A preocupação com o combate a toda forma de discriminação contemplará ações de inclusão, garantindo a valorização das diferenças e o atendimento às pessoas com necessidades educacionais especiais (Capítulos \ref{cap_metodologia_e_avaliacao} e \ref{cap_acessibilidade}). Neste âmbito, uma das estratégias adotadas pelo curso, em parceria com o NACES e o Setor de Acessibilidade da UAG, será o de fomentar o desenvolvimento de projetos de ensino, pesquisa e extensão voltados à promoção da Acessibilidade.
+
+
 
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% chapter Organização Curricular
+% chapter GESTÃO DO CURSO E PROCESSOS DE AVALIAÇÃO INTERNA E EXTERNA
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Organização do Curso (e Recursos Humanos)}
-
-A estrutura curricular proposta, (visualizar a Matriz Curricular no apêndice 1) possui uma carga-horária mínima de 3.200 horas para a integralização dos créditos exigidos para a obtenção do título de Bacharel em Ciência da Computação.
-
-Como 20\% da carga horária total do curso de Graduação  (máximo de 640 horas para este curso)  pode ocorrer à distância (MEC, Portaria No. 4.059, de 10/12/2004), através de  disciplinas que permitam desenvolver suas atividades didáticas, módulos ou unidades de ensino-aprendizagem centrados na auto-aprendizagem e com mediação de recursos didáticos organizados em ambientes de informação que utilizem tecnologia de comunicação remota, avaliações presenciais, incluídos métodos e práticas de ensino-aprendizagem que incorporem o uso de tecnologias de informação e comunicação para a realização dos objetivos pedagógicos, bem como prever encontros presenciais e atividades de tutoria, através de docentes qualificados, e que poderão ser encorajadas pela Instituição a serem ofertadas à distância. Assim, pode-se compartilhar a oferta das disciplinas nos diversos \textit{Campi} onde o curso será ofertado oferecendo ao aluno uma maior variedade na opção de disciplinas e maior integração. 
-
-Além disso, estar-se-á auxiliando os recém-criados cursos a desenvolverem seus grupos de pesquisa e extensão.
-
-De acordo com as diretrizes do MEC, os currículos dos cursos da área de Computação e Informática podem ser compostos por quatro grandes áreas de formação:
-
-\begin{itemize}
-  \item Formação básica;
-  \item Formação tecnológica;
-  \item Formação complementar;
-  \item Formação humanística.
-\end{itemize}
-
-A formação básica compreende os princípios básicos da Ciência da Computação, além da Matemática necessária para defini-los formalmente, a Física e Eletricidade necessárias para permitir o entendimento e o projeto de computadores viáveis e a formação pedagógica, que introduz os conhecimentos básicos da construção do conhecimento. 
-
-A formação tecnológica, também chamada de aplicada ou profissional, aplica os conhecimentos básicos adquiridos no desenvolvimento tecnológico da Computação. Os objetivos são criar instrumentos (ferramentas) de interesse da sociedade ou robustecer tecnologicamente os sistemas de computação, para permitir a construção de ferramentas antes inviáveis ou ineficientes. Entre temas de disciplinas de formação tecnológica, pode-se citar: Sistemas Operacionais, Redes de Computadores, Banco de Dados, Sistemas Multimídia, Interface Humano-Computador, Realidade Virtual, Inteligência Artificial, Computação Gráfica e Processamento de Imagens.
-
-A formação complementar permite uma interação dos egressos dos cursos com outras profissões, tendo como objetivo dotar o aluno do conhecimento necessário para resolver problemas de outras áreas. Para que possa interagir com profissionais de outras áreas na busca de soluções computacionais complexas para seus problemas, profissional de Computação deve conhecer de forma geral e abrangente essas áreas. Como exemplos de áreas de formação complementar têm-se: Educação, Economia, Administração, Biologia, Música, entre outras. A formação humanística dá ao egresso uma dimensão social e humana, por meio do tratamento de temas como o empreendedorismo, a ética em computação, a sociologia e a filosofia. 
-
-O Curso de BCC da UAG foi dividido de acordo com a Quadro~\ref{tab:CHNucleoFormacao}. Os percentuais das áreas de formação são calculados tendo como referência o total parcial de carga horária que não leva em conta nem as atividades complementares, excluindo as optativas, nem o Trabalho de Conclusão de Curso (TCC). As disciplinas optativas por fazerem parte de eixos de conhecimento do curso estão contabilizadas dentro da formação tecnológica.
-
-% Table generated by Excel2LaTeX from sheet 'Plan3'
-\begin{table}[htbp]
-  \centering
-  \caption{Distribuição de carga horária por núcleos de formação}
-    \begin{tabular}{l|r|r|r}
-\hline \textbf{Área de Formação} & \textbf{Créditos} & \textbf{Carga Horária} & \textbf{\%} \\ \hline
-    CH Básico & 80    & 1200  & 41,38\% \\ \hline
-    CH Profissional & 70    & 1050  & 36,21\% \\ \hline
-    CH Optativas & 28    & 420   & 17,50\% \\ \hline
-    CH Complementares &       & 320   & 13,33\% \\ \hline
-    CH Estágio Supervisionado &      & 300   & 12,50\% \\ \hline
-    CH Trabalho de Conclusão de Curso &      & 180   & 6,67\% \\ \hline
-          &       &       &  \\ \hline
-    Matemática & 28    & 420   & 17,50\% \\ \hline
-    Ciências Básicas (da Natureza) & 4     & 60    & 2,50\% \\ \hline
-    Contexto Social e Profissional & 10    & 150   & 6,25\% \\ \hline
-    Fundamentos da Computação & 48    & 720   & 30,00\% \\ \hline
-    Tecnologia da Computação & 42    & 630   & 26,25\% \\ \hline
-    Optativas & 28    & 420   & 17,50\% \\ \hline
-          &       &       &  \\ \hline
-    Total Parcial & 160   & 2400  & 100,00\% \\ \hline
-    Atividades Complementares &       & 320   &  \\ \hline
-    Estágio Supervisionado &       & 300   &  \\ \hline
-    Trabalho de Conclusão de Curso &      & 180   &  \\ \hline
-    Total Geral &       & 3200  &  \\ \hline
 
 
-    \end{tabular}%
-  \label{tab:CHNucleoFormacao}%
-\end{table}%
 
 
-Para integralização das 3.200 horas da carga-horária mínima exigida, o aluno deverá cumprir esta carga-horária distribuída da seguinte forma: 
 
-\begin{itemize}
-  \item 1.980 horas em disciplinas obrigatórias;
-  \item 420 horas em disciplinas optativas;
-  \item 320 horas em atividades complementares, ver Quadro~\ref{tab:atividadescomplementares}, pág.~\pageref{tab:atividadescomplementares}.
-  \item 300 horas de estágio supervisionado.
-  \item 180 horas de trabalho de conclusão de curso supervisionado por um Professor da área de Computação;
+\chapter{GESTÃO DO CURSO E PROCESSOS DE AVALIAÇÃO INTERNA E EXTERNA}
+\label{cap_gestao_do_curso_e_processos_de_avaliacao_interna_e_externa}
 
-\end{itemize}
+A avaliação não está dissociada do planejamento, tanto em nível do ensino quanto em nível do curso. A avaliação configura-se como um instrumento indispensável para pensar, executar e reelaborar o planejamento. Nesse sentido, como observa Luckesi (2002, p. 93), ela exige uma decisão do que fazer com o resultado, direcionando o objeto da avaliação “numa trilha dinâmica de ação”. A prática da autoavaliação cria oportunidades para a ampliação de conhecimento, reflexão crítica e construção coletiva de diretrizes necessárias para a tomada de decisões.
 
-A critério do aluno, outras disciplinas complementares, optativas e eletivas (todas as disciplinas ofertadas na UFRPE são consideradas eletivas para o aluno do Bacharelado em Ciência da Computação, desde que aprovadas pelo Colegiado do Curso) poderão ser incorporadas ao seu histórico escolar. Contudo, as eletivas não são contabilizadas para integralização do currículo de créditos. Os prazos de conclusão de curso estão sumarizados na Quadro~\ref{tab:prazoCurriculo}, a seguir. 
+Sendo um processo permanente e sistemático, a autoavaliação do curso será balizada por um \textit{projeto de autoavaliação}, cuja elaboração tenha a contribuição de gestores, docentes, discentes e técnico-administrativos. O projeto deverá conter os objetivos, metodologias, formas de divulgação e discussão dos resultados, bem como um cronograma.
 
-% Table generated by Excel2LaTeX from sheet 'Plan3'
-\begin{table}[htbp]
-  \centering
-  \caption{Prazos para integralização do currículo}
-    \begin{tabular}{l|r}
-\hline
-    \textbf{Prazo} & \textbf{Tempo} \\ \hline 
-    Mínimo & 8 semestres \\ \hline
-    Pleno & 9 semestres \\ \hline
-    Máximo & 15 semestres \\ \hline
+A autoavaliação será diagnóstica e propositiva, apontando potencialidades e fragilidades presentes no desenvolvimento do curso em seus mais variados aspectos, tais como o rendimento acadêmico dos alunos, práticas de ensino, projetos interdisciplinares, indissociabilidade entre ensino, pesquisa e extensão, monitoria, gestão do curso, matriz curricular e conteúdo, estágios, atividades complementares, infraestrutura, alinhamento com o PPI, etc. A autoavaliação apresenta um caráter contínuo e cíclico, podendo se dar com periodicidade semestral e anual em função dos aspectos a serem avaliados.
 
-    \end{tabular}%
-  \label{tab:prazoCurriculo}%
-\end{table}%
+Deve-se observar que conforme a Resolução CEPE/UFRPE nº 065/2011, com base na Resolução CONAES/MEC nº 01/2010, cabe ao NDE, como órgão consultivo, a responsabilidade pela concepção do projeto pedagógico do curso, bem como sua atualização e revitalização. O NDE também tem por atribuição a supervisão do processo de avaliação e acompanhamento do curso definidas pelo Colegiado do mesmo.
+
+A Coordenação do Curso, por sua vez, seguirá o princípio da gestão democrática fomentando a participação dos professores, técnicos e estudantes nos processos de avaliação e planejamento. Para a consecução das ações necessárias ao desenvolvimento do curso, a Coordenação contará com assessoria técnica e apoio institucional da PREG, PROPLAN, CPA – Comissão Própria de Avaliação e NACES, além de outros órgãos da Universidade que julgar necessários.
+
+Na análise dos resultados e consequente proposição de ações resultantes de seu processo de autoavaliação, o curso deverá atentar para o perfil do egresso, as Diretrizes Curriculares Nacionais para o Bacharelado em Ciência da Computação, os objetivos definidos neste PPC, as políticas institucionais expressas no PDI, em especial no PPI (ver item 17), e as demais avaliações realizadas no âmbito do Sistema Nacional de Avaliação da Educação Superior – SINAES (BRASIL, 2004).
+
+O SINAES é constituído por três modalidades avaliativas: Avaliação das Instituições de Ensino Superior - AVALIES, Avaliação dos Cursos de Graduação - ACG, e ENADE. Cada uma delas é desenvolvida em situações e momentos distintos, mas devem promover articulações entre si. No caso da AVALIES, esta é composta pela avaliação institucional externa e interna. A avaliação institucional externa é realizada por comissões avaliadoras do INEP, ao passo que a avaliação institucional interna fica a cargo da Comissão Própria de Avaliação - CPA de cada instituição.
+
+A UFRPE constituiu a sua CPA por meio da Portaria nº 313/2004-GR, de 14 de junho de 2004, com o objetivo de elaborar e desenvolver, juntamente à comunidade acadêmica, Administração Superior e Conselhos Superiores, uma proposta de autoavaliação institucional, coordenando e articulando os processos internos de avaliação da UFRPE, de acordo com princípios e diretrizes do SINAES.
+
+Em 2015, a referida Comissão criou o \textit{Boletim CPA}, uma publicação reunindo os resultados da autoavaliação institucional da UFRPE relativos ao Eixo 03 (Políticas Acadêmicas)1. O Boletim CPA possui duas particularidades que o distinguem dos \textit{Relatórios de Autoavaliação Institucional}, enviados anualmente ao MEC, já que apresenta, especificamente, os resultados da avaliação feita pelos discentes e é organizado por curso de graduação. Ou seja, ao contrário do Relatório, de caráter abrangente, o Boletim é mais específico, trazendo as avaliações do corpo discente de cada curso sobre o ensino, a pesquisa, a extensão, a comunicação com a sociedade, e a política de atendimento aos estudantes.
+
+A 1ª edição do Boletim CPA-UFRPE foi elaborada em 2015 com base no Questionário CPA 2014. Foram publicados quatro volumes, contemplando o campus Dois Irmãos e as três Unidades Acadêmicas existentes na época de aplicação do questionário em 2014.1, UAG, UAST e UAEADTec. Com a 2ª edição do Boletim, em 2016, foi acrescido o volume correspondente à UACSA. O principal objetivo do Boletim é auxiliar a Coordenação do curso, o NDE, juntamente com discentes, docentes e técnicos nos processos de avaliação e aprimoramento do curso. Neste sentido, a Coordenação ou o NDE poderá solicitar à CPA a realização de Encontros de Autoavaliação com uma síntese dos resultados do Boletim, de modo a discutir aspectos da autoavaliação institucional no âmbito do curso e possíveis encaminhamentos.
 
 
-\section{Infraestrutura para Manutenção do Curso}
 
-Para a adequada manutenção e evolução de um curso de Bacharelado em Ciência da
-Computação são necessários 3 (três) itens fundamentais:
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter FUNCIONAMENTO ADMINISTRATIVO DA UFAPE E DO CURSO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\chapter{FUNCIONAMENTO ADMINISTRATIVO DA UFAPE E DO CURSO}
+	
+A UFAPE, tutorada pela UFRPE, desenvolve atividades administrativas, didático-científicas e extensionistas que congrega servidores, estudantes e membros da comunidade local. O \textit{Estatuto e Regimento Geral das Unidades Acadêmicas Fora de Sede}, com alteração promovida pela Resolução CONSU/UFRPE nº 003/2017, estabelece as bases para a organização administrativa da UAG.
+
+De acordo com o \textit{Estatuto}, a mesma é exercida pela Diretoria Geral e Acadêmica, Diretoria Administrativa, pelo Conselho Técnico-Administrativo e Secretaria (Art. 3º). A Diretoria Geral e Acadêmica, que é exercida pelo Diretor Geral e Acadêmico e seu substituto eventual, coordenando as atividades acadêmicas e fiscalizando as atividades administrativas da Unidade (Art. 4º). Como prevê o \textit{Regimento Geral} (Art. 2º), o Diretor Geral e Acadêmico tem as seguintes atribuições:
 
 \begin{enumerate}
-  \item recursos humanos, com docentes qualificados e técnicos operacionais
-  (para os serviços de apoio à secretaria, apoio didático e coordenação);
-  \item infraestrutura didática, (acesso à \textit{Internet}, laboratórios
-  temáticos de informática);
-  \item biblioteca, contendo os recursos bibliográficos, revistas impressas e
-  digitais;
-  \item manutenção do núcleo docente estruturante; 
-  \item colegiado de coordenação didática; e,
-  \item programa de tutoria institucional.
-\end{enumerate} 
+    \item Participar, como membro nato, do Conselho Técnico-Administrativo da Unidade Acadêmica;
+    \item Administrar e representar a Unidade Acadêmica;
+    \item Convocar e presidir as reuniões do Conselho Técnico Administrativo da Unidade Acadêmica;
+    \item Cumprir e fazer cumprir as deliberações do Conselho Técnico Administrativo da Unidade Acadêmica e dos órgãos deliberativos da Administração Superior, 	bem como as instruções dos demais órgãos executivos da esfera administrativa;
+    \item Cumprir e fazer cumprir as 	disposições do Estatuto da UFRPE, do Regimento Geral da UFRPE e do 	Regimento da Unidade Acadêmica;
+    \item Submeter, na época devida, 	conforme instruções dos órgãos superiores, à consideração do Conselho Técnico-Administrativo da Unidade, o plano de atividades de cada período letivo, inclusive a oferta de disciplinas;
+    \item Planejar e submeter à aprovação do Conselho Técnico-Administrativo da Unidade a distribuição dos encargos de ensino, pesquisa e extensão, respeitando, dentro do possível, as preocupações científico-culturais dos docentes;
+    \item Fiscalizar a assiduidade dos docentes e dos técnico-administrativos da Unidade Acadêmica; 	
+    \item Fiscalizar a observância do 	regime acadêmico, o cumprimento dos programas de ensino e a execução dos demais planos de trabalho;
+    \item Apresentar, no fim de cada período letivo, após aprovação do Conselho Técnico-Administrativo da Unidade, o relatório de atividades da Unidade, sugerindo as providências cabíveis para a maior 	eficiência do ensino, da pesquisa e da extensão;
+    \item Adotar, em casos de urgência, medidas que se imponham em matéria de competência do Conselho da 	Unidade, ad referendum, submetendo-as à ratificação deste, no prazo de cinco (5) dias;
+    \item Integrar o Conselho Universitário;
+    \item Submeter os casos omissos no Regimento da Unidade Acadêmica ao Conselho Técnico-Administrativo da Unidade.
+\end{enumerate}
 
-Tais recursos são sumarizados nas subseções a seguir.
+A Diretoria Administrativa, segundo o \textit{Estatuto}, supervisiona e coordena os serviços administrativos da Unidade Acadêmica, executados pelos Setores de Pessoal, de Contabilidade e Finanças, de Informática, de Patrimônio, de Comunicação, de Material e de Serviços Gerais, e de Assistência Social à Comunidade Universitária (Art. 7º). Nas faltas e impedimentos do Diretor Administrativo, a Diretoria será exercida pelo seu respectivo substituto eventual (Art. 8, Parágrafo Único).
 
-
-
-\subsection{Recursos Humanos}
-
-Para a completa execução do curso de Bacharelado em  Ciência da Computação será
-necessária a contratação e docentes para curso, 1 (uma)  secretária, em nível
-superior; 2 (dois) técnicos de apoio educacional, em nível médio; e, 2 (dois)
-assistentes em administração, em nível médio.
-
-\subsection{Laboratórios e ambientes}
-
-Para a infraestrutura de informática, no que diz respeito aos laboratórios, os
-cursos de computação devem oferecer um bom laboratório de software.  É
-imprescindível que haja conexão com a \textit{Internet} e que os alunos tenham
-acesso no mínimo aos dois ambientes computacionais e de redes mais comuns
-atualmente: Windows 7 e UNIX, como uma distribuição Linux, rodando em
-\textit{dual-boot}. 
-
-Os laboratórios de hardware devem ser completos, com
-instrumental  necessário para  matérias como arquitetura de computadores, 
-circuitos digitais e automação: osciloscópios e analisadores digitais,  kits de
-programação e simulação de sistemas de automação e de circuitos digitais, além
-dos laboratórios temáticos/específicos, abaixo descritos.
+O Diretor Administrativo de Unidade Acadêmica, em conformidade com o \textit{Regimento Geral} (Art. 3º), tem as atribuições definidas abaixo:
 
 \begin{enumerate}
-  \item 4 (quatro) salas de aula com quadros com capacidade para 40 (quarenta)
-  estudantes;
-  \item 10 (dez) laboratórios de ensino com computadores e quadro com capacidade
-  para 40 (quarenta) computadores;
-  \item 1 (um) anfiteatro para 150 (cento e cinquenta) pessoas;
-  \item 1 (uma) sala para servidores (computadores) da rede de informática da
-  UAG;
-  \item 1 (uma) sala para servidores (computadores) para uso do curso de BCC;
-  \item 1 (uma) sala para técnicos de informática da UAG;
-  \item 1 (uma) sala para técnicos de informática do curso de BCC;
-  \item 1 (um) laboratório de manutenção de computadores;
-  \item 1 (uma) sala para almoxarifado/depósito de material;
-  \item 2 (duas) salas para monitoria com capacidade para 20 (vinte) estudantes;
-  \item 30 (trinta) salas individuais para professores;
-  \item 1 (uma) sala para professores visitantes;
-  \item 1 (uma) sala para coordenação do curso de BCC;
-  \item 1 (um) laboratórios de pesquisa em Computação;
-  \item 1 (um) laboratório de Matemática Computacional;
-  \item 1 (um) laboratório de Estatística Computacional;
-  \item 1 (uma) sala para biblioteca setorial;
-  \item 2 (duas) salas sendo uma para sede do Garanhuns Digital e outra para o
-  grupo PET computação;
-  \item 1 (uma) sala para sede do Garanhuns Digital;
-  \item 1 (uma) sala para o centro acadêmico do curso de BCC;
-  \item 1 (uma) copa;
-  \item 1 (uma) área para empreendedorismo, com 6(seis) salas (empresa júnior e
-  incubadora);
-  \item 2 (dois) banheiros com chuveiros, feminino e masculino; 
-  \item 6 (seis) salas para estudantes de pós-graduação;
-  \item 1 (um) sala para secretaria da pós-graduação;
-  \item 8 (oito) salas de aula para pós-graduação com capacidade para 20
-  (vinte); estudantes;
-  \item 2 (duas) salas de computação para pós-graduação com capacidade para 10
-  (dez) computadores;
-  \item 1 (uma) sede do grupo PET Computação.
+    \item Participar, como membro nato, do Conselho Técnico-Administrativo da Unidade Acadêmica;
+    \item Observar o cumprimento da 	Política definida pelo Conselho Universitário referente a área administrativa;
+    \item Contribuir para integração dos diversos setores da Unidade Acadêmica na área administrativa;
+    \item Realizar estudos sobre a estrutura e procedimentos, propondo medidas que visem maior eficiência das atividades administrativas da Unidade Acadêmica;
+    \item Desempenhar outras atribuições de caráter permanente, temporário ou ocasional, delegadas pelo Diretor Geral e Acadêmico;
+    \item Emitir parecer sobre assuntos relacionados com sua área de competência;
+    \item Coordenar a gestão do pessoal técnico-administrativo lotado na Unidade Acadêmica e solicitar as substituições que se fizerem necessárias;
+    \item Enviar ao Reitor, em tempo 	hábil, a discriminação da receita e da despesa da Unidade, como subsídio à elaboração da proposta orçamentária; 
+    \item Pronunciar-se sobre a escala de férias dos técnico-administrativos, resguardando o andamento 	normal das atividades de ensino, pesquisa e extensão da Unidade  Acadêmica, encaminhando as proposições ao Diretor Geral e Acadêmico.
+\end{enumerate}
+
+O Conselho Técnico Administrativo da Unidade Acadêmica, como previsto no Art. 10º do Estatuto, é constituído pelos seguintes membros titulares e respectivos suplentes:
+
+\begin{enumerate}
+    \item Diretor Geral e Acadêmico, como presidente;
+    \item Diretor Administrativo; 	
+    \item Coordenador Geral dos Cursos de Graduação; 	
+    \item Um representante dos professores titulares;
+    \item Dois representantes dos professores associados;	
+    \item Três representantes dos professores adjuntos; 	
+    \item Três representantes dos professores assistentes; 	
+    \item Um representante dos professores auxiliares; 	
+    \item Dois representantes dos técnico-administrativos; 	
+    \item Dois representantes dos discentes.
+\end{enumerate}
+
+Os representantes referidos nas alíneas d, e, f, g, h, i e j são escolhidos dentre os seus pares, conforme normas elaboradas pelo Conselho Técnico Administrativo da Unidade Acadêmica, com mandato de dois anos, conforme legislação vigente (Art. 10 § 1º).
+
+Conforme consta no \textit{Regimento Geral} (Art. 1º), o Conselho Técnico Administrativo da Unidade Acadêmica, como órgão consultivo, normativo e deliberativo de cada Unidade Acadêmica, terá como atribuições:
+
+\begin{enumerate}
+    \item Aprovar a distribuição das tarefas de ensino, pesquisa, extensão e outros, entre os docentes que integram a Unidade Acadêmica, conciliando, dentro do possível, os interesses da Unidade com as preocupações científico-culturais dominantes dos referidos docentes;
+    \item Aprovar, nos limites de sua competência, os projetos de pesquisa ou planos de cursos de especialização, aperfeiçoamento e extensão da Unidade elaborados por especialistas da Unidade Acadêmica;
+    \item Elaborar e fiscalizar o plano de aplicação de recursos da Unidade;
+    \item Apreciar e julgar as propostas de alterações do quadro de pessoal docente ou administrativo da Unidade, para encaminhamento às autoridades superiores;
+    \item Elaborar e aprovar, para o devido e tempestivo encaminhamento ao Pró-Reitor de Ensino de Graduação, a lista de disciplinas da Unidade Acadêmica que podem ser ofe­rtadas e ministradas em cada semestre, com o respectivo número de turmas e de vagas;
+    \item Adotar providências para o 	constante aperfeiçoamento do pessoal docente e 	técnico-administrativo da Unidade;
+    \item Emitir pareceres em assuntos de sua competência;
+    \item Promover e exercer as atribuições de sua competência, nos concursos para docentes;
+    \item Assessorar o Diretor Geral e 	Acadêmico; 
+    \item Organizar, em reunião específica, a lista tríplice para escolha da nomeação do Diretor Geral e Acadêmico;
+    \item Exercer as demais atribuições que se incluam, de maneira expressa ou implícita, no âmbito de sua 	competência.
+\end{enumerate}
+
+No que se refere à Secretaria, esta dá suporte administrativo à Unidade Acadêmica. A chefia da Secretaria é exercida por técnico-administrativo indicado pelo Diretor Geral e Acadêmico e designado pelo Reitor. (\textit{Estatuto}, Art. 13º). A coordenação didática dos cursos da UAG é exercida por um Colegiado Geral de Coordenação Didática - CGCD, constituído pelo Coordenador Geral dos Cursos, pelos Coordenadores de Curso, por um docente de cada curso, e por dois (2) representantes do corpo discente. O CGCD é presidido pelo Coordenador Geral dos Cursos de Graduação ou seu substituto eventual. (\textit{Estatuto}, Art. 14). São atribuições do CGCD, conforme o \textit{Regimento Geral}, Art. 4º:
+
+\begin{enumerate}
+    \item Avaliar modificações na matriz curricular elaboradas pelo Colegiado de Curso e propô-las ao Conselho de Ensino, Pesquisa e Extensão;
+    \item Avaliar elenco de disciplinas optativas elaborada pelo Colegiado do Curso e propô-las ao Conselho de Ensino, Pesquisa e Extensão;
+    \item Promover através de propostas elaboradas em conjunto com a(s) 	Coordenação(ões) de Curso(s) e devidamente justificadas, ao Conselho de Ensino, Pesquisa e Extensão, a melhoria contínua do(s) curso(s).
+    \item Propor 	à Câmara competente do Conselho de Ensino, Pesquisa e Extensão,  modificações nos planos dos respectivos cursos;
+    \item Estudar e analisar, em cada período letivo, os planos de ensino das 	disciplinas da(s), da (as) matriz (es) curricular(es) do(s) curso(s), proposta(s) pelas respectivas Coordenações de Curso, sugerindo a estas as modificações julgadas necessárias;
+    \item Coordenar o processo eletivo para composição da lista tríplice para Coordenador de Curso de Graduação e seu substituto eventual;
+    \item Estabelecer a distribuição das tarefas de ensino (aulas, atendimento aos alunos e preparação de aulas), pesquisa, extensão e outros, entre os docentes que integram a Unidade Acadêmica, conciliando, dentro  do possível, os interesses da Unidade com as preocupações 	científico/culturais dominantes dos referidos docentes;
+    \item Exercer as demais funções que lhe são deferidas em lei, no Estatuto e neste Regimento;
+    \item Deliberar sobre os casos omissos na esfera de sua competência.
+\end{enumerate}
+
+O Coordenador Geral dos Cursos de Graduação da UAG tem as seguintes atribuições (Regimento Geral, Art. 5º):
+
+\begin{enumerate}
+    \item Participar como membro nato, do Conselho de Ensino, Pesquisa e Extensão da UFRPE;
+    \item Participar como membro nato, do Conselho Técnico-Administrativo da Unidade 	Acadêmica;
+    \item Convocar e presidir as reuniões do Colegiado Geral de Coordenação Didática;
+    \item Representar o Colegiado Geral de Coordenação Didática junto aos órgãos 	deliberativos da Universidade, na forma do Estatuto e deste Regimento;
+    \item Encaminhar expediente e processos aprovados no Colegiado Geral de Coordenação Didática;
+    \item Adotar, em caso de urgência, providências da competência do Colegiado Geral de Coordenação Didática, ad referendum deste, ao qual as submeterá no prazo de cinco dias;
+    \item Coordenar e fiscalizar as atividades dos docentes que integram a Unidade Acadêmica, distribuindo com eles as tarefas didáticas, relativas 	às turmas de alunos matriculados nas disciplinas;
+    \item Pronunciar-se 	sobre a escala de férias dos docentes, resguardando o andamento normal das atividades de ensino, pesquisa e extensão da Unidade Acadêmica;
+    \item Representar, no Conselho Técnico-Administrativo da Unidade Acadêmica, os  interesses das Coordenações de Curso de Graduação;
+    \item Tomar quaisquer outras iniciativas de interesse das Coordenações de Curso de Graduação;
+    \item Responder pelas ações de assistência estudantil junto à PROGESTI;
+    \item Cumprir e/ou fazer cumprir as determinações do Colegiado Geral de Coordenação Didática e planos dos cursos, da Administração Superior e de seus Conselhos, bem como zelar pelo cumprimento das disposições pertinentes no Estatuto e neste Regimento.
+\end{enumerate}
+
+A coordenação didática do curso de graduação é exercida por um Colegiado de Coordenação Didática - CCD, constituído pelo coordenador do curso, como presidente, pelo seu substituto eventual, como vice-presidente, por docentes dos primeiros quatro períodos do curso (quatro representantes) e do quinto ao último período do curso (cinco representantes), que ministram disciplinas no curso, e por representantes do corpo discente de graduação (Estatuto, Arts. 15 e 16). O CCD terá as seguintes atribuições definidas pelo Regimento Geral em seu Art. 6º:
+
+\begin{enumerate}
+    \item Elaborar modificações no currículo do curso, propondo-as ao CGCD;
+    \item Propor ao CGCD o elenco de 	disciplinas optativas do curso;
+    \item Promover, através de propostas devidamente justificadas ao CGCD, a melhoria contínua do curso;
+    \item Propor ao CGCD modificações nos planos dos respectivos cursos;
+    \item Propor, em cada período letivo, os planos de ensino das disciplinas do currículo do curso;
+    \item Apreciar e deliberar sobre as 	solicitações acerca do aproveitamento de estudos e adaptações, ouvidos os docentes da Unidade com competência para julgar e emitir pareceres sobre o conteúdo de tais solicitações;
+    \item Exercer as demais funções que lhe são, explícita ou implicitamente, deferidas em Lei, no Estatuto e neste Regimento Geral;
+    \item Deliberar sobre os casos omissos na esfera de sua competência.
+\end{enumerate}
+
+O coordenador de curso de graduação tem as seguintes atribuições, consoante o Regimento Geral, Art. 7º:
+
+\begin{enumerate}
+    \item Convocar e presidir as reuniões do respectivo Colegiado; 	
+    \item Representar o Colegiado junto ao CGCD da Unidade, na forma do Estatuto e deste Regimento;
+    \item Submeter ao CCD as modificações propostas para o plano ou currículo do 	curso;
+    \item Encaminhar expediente e processos aprovados no CCD;
+    \item Coordenar e fiscalizar a execução dos planos e a programação do respectivo curso, tomando as medidas adequadas ou propondo-as aos órgãos competentes; 
+    \item Adotar em caso de urgência, 	providências da competência do Colegiado, ad 	referendum deste, ao 	qual as submeterá no prazo de cinco dias;
+    \item Atuar junto ao CGCD e Diretoria Geral e Acadêmica, traçando as normas que conduzem à gestão racional e objetiva do curso do qual está representando;
+    \item Cumprir e/ou fazer cumprir as determinações do CCD e plano do curso o qual representa, da Administração Superior e de seus Conselhos, do CGCD, bem como zelar pelo cumprimento das disposições pertinentes no Estatuto e neste Regimento.
+\end{enumerate}
+
+\section{Atuações do Núcleo Docente Estruturante - NDE}
+
+Regulamentado pela Resolução/UFRPE nº065/2011 e Resolução/CONAES nº 01, de 17 de junho de 2010, o NDE é o órgão consultivo responsável pela concepção, atualização e revitalização do Projeto Pedagógico do Curso. Ele é constituído por, no mínimo, cinco professores pertencentes ao corpo docente do curso, além do Coordenador do Curso que exerce a função de presidente. Dos que compõem o NDE, no mínimo, 25\% devem ter titulação de doutor, e ao menos 20\% devem possuir regime de dedicação exclusiva. São atribuições do NDE, entre outras (Resolução/UFRPE nº065/2011, Art. 3º):
+
+\begin{enumerate}
+    \item Estabelecer o perfil profissional do egresso do curso; 	
+    \item Atualizar periodicamente o projeto pedagógico do curso; 	
+    \item Conduzir os trabalhos de reestruturação curricular, para aprovação no Colegiado de Curso, sempre que necessário;
+    \item Supervisionar as formas de avaliação e acompanhamento do curso definidas pelo Colegiado; 	
+    \item Analisar e avaliar os Planos de Ensino dos componentes curriculares;
+    \item Zelar pela integração curricular interdisciplinar entre as diferentes atividades de ensino constantes no currículo; 	
+    \item Indicar formas de incentivo ao desenvolvimento de linhas de pesquisa e extensão, oriundas de necessidades da graduação, de exigências do mercado de trabalho e afinadas com as políticas públicas relativas à área de conhecimento do curso; 	
+    \item Zelar pelo cumprimento das Diretrizes Curriculares Nacionais para os Cursos de Graduação.
+\end{enumerate}
+
+Ao Presidente do Núcleo compete:
+
+\begin{enumerate}
+    \item Convocar e presidir reuniões, com direito a voto, inclusive o de qualidade;
+    \item Representar o NDE junto aos 	órgãos da instituição; 	
+    \item Encaminhar as deliberações do Núcleo; 	
+    \item Designar relator ou comissão 	para estudo de matéria a ser decidida pelo Núcleo e um representante do corpo docente para secretariar e lavrar as atas;
+    \item Coordenar a integração com os demais colegiados e setores da Universidade.
 \end{enumerate}
 
 
 
-\subsection{Biblioteca}
- 
-Para a biblioteca, convém adquirir, pelo menos, 13 (treze) exemplares de
-cada livro-texto (bibliografia básica) de cada  ementa de disciplina e pelo menos 2 (dois) exemplares de
-(bibliografia complementar) por ementa de disciplina.
-
-Há a necessidade de assinatura de revistas especializadas, em âmbito nacional e internacional, como por exemplo, 
-\textit{Communications of th}e ACM, IEEE \textit{Software} e MIS \textit{Quarterly}, e
-tecnológicas ou de microinformática, como PC World, Exame Informática, entre outras.
-
-\section{Núcleo Docente Estruturante}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% chapter PERFIL DO CORPO DOCENTE E TÉCNICO-ADMINISTRATIVO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-O Núcleo Docente Estruturante (NDE) será estabelecido pelo Colegiado do Curso
-segundo a Resolução 065/2011-CEPE, sendo constituído pelo(a) Coordenador(a)
-de Curso, como seu presidente nato, e por pelo menos 30\% (trinta por cento) dos
-docentes efetivos e atuantes no curso, relacionados pelo Colegiado de Curso que
-satisfizerem os requisitos previstos na resolução.
 
-A coordenação do curso possui um coordenador e outros docentes que formam o Núcleo Docente Estruturante, ou NDE. 
-Ao NDE cabe a manutenção do presente Projeto Pedagógico de Curso (PPC) e a correspondente implementação. O NDE é 
-um órgão consultivo, cujas sugestões e decorrentes ações devem ser avaliadas e aprovadas pelo Conselho Diretor (CD) do 
-Instituto de Informática. A definição precisa das atribuições e da constituição do NDE, dentre outras, deverão ser fornecidas em regimento próprio devidamente aprovado pelo Colegiado de Coordenação Didática.
+\chapter{PERFIL DO CORPO DOCENTE E TÉCNICO-ADMINISTRA\-TI\-VO}
 
+Com mais de dez anos de atividade, a Unidade Acadêmica de Garanhuns possui um corpo docente e técnico-administrativo consolidado. Em face do contingente de estudantes em seus sete cursos de graduação, a distribuição de servidores se dá conforme o quantitativo nos Quadros 15 e 16.
 
-Este grupo deve avaliar constantemente o andamento do Curso, especialmente nos 
-primeiros anos, propondo melhorias e ajustes ao PPC e ao funcionamento do Curso,
-de forma a possibilitar a realização dos objetivos propostos para o Curso.
+\begin{center}
+  
+  \begin{scriptsize}
+    \begin{longtable}{llr}
+      \caption{\label{quadro:estimativa-servidores-ufape}Estimativa dos servidores da UFAPE.}\\
+  \toprule
+  \textbf{Servidor} & \multicolumn{2}{l}{\textbf{Quantitativo}}\\ 
+    \midrule
+    Docentes                 & \multicolumn{2}{r}{183} \\ \midrule
+    Técnicos-administrativos & Nível C & 4 \\ 
+                             & Nível D & 50 \\ 
+                             & Nível E & 33 \\
+    \bottomrule
+\end{longtable}
+\end{scriptsize}      
+\end{center}
+Vinculados ao curso de Ciência da Computação temos os docentes e suas respectivas informações listados no quadro abaixo.
 
+\begin{center}
+  
+  \begin{scriptsize}
+    \begin{longtable}{rp{6cm}p{1.8cm}p{1.4cm}p{1.9cm}p{1.8cm}}
+      \caption{\label{quadro:especificacao-dos-docentes-curso}Especificação dos docentes do curso.}\\
+    \toprule
+    \textbf{Nº} & \textbf{Nome} & \textbf{Área de Conhecimento} & \textbf{Titulação} & \textbf{Experiência Profissional} & \textbf{Experiência Magistério Superior}\\ 
+    \midrule
+    1 & Alixandre Thiago Ferreira Santana & Computação & Doutor & \multicolumn{1}{c}{14} & \multicolumn{1}{c}{9}\\ \midrule
+    2 & Álvaro Alvares de Carvalho César Sobrinho & Computação & Doutor & \multicolumn{1}{c}{13} & \multicolumn{1}{c}{3} \\ \midrule
+    3 & Assuero Fonseca Ximenes & Computação & Doutor & \multicolumn{1}{c}{25} & \multicolumn{1}{c}{16}\\ \midrule
+    4 & Daliton da Silva & Computação & Mestre & \multicolumn{1}{c}{13} & \multicolumn{1}{c}{9} \\ \midrule
+    5 & Dimas Cassimiro do Nascimento Filho & Computação & Doutor & \multicolumn{1}{c}{7} & \multicolumn{1}{c}{6} \\ \midrule
+    6 & Diana Vasconcelos Lopes  & Letras & Doutora & \multicolumn{1}{c}{31} & \multicolumn{1}{c}{15} \\ \midrule
+    7 & Diogo de Lima Lages & Computação & Mestre & \multicolumn{1}{c}{8} & \multicolumn{1}{c}{5} \\ \midrule
+    8 & Eudes da Silva Santos & Letras & Doutor & \multicolumn{1}{c}{12} & \multicolumn{1}{c}{11}\\ \midrule
+    9 & Gersonilo Oliveira da Silva & Matemática & Doutor & \multicolumn{1}{c}{12} & \multicolumn{1}{c}{12}\\ \midrule
+    10 & Helder Fernando de Araujo Oliveira & Computação & Doutor & \multicolumn{1}{c}{13} & \multicolumn{1}{c}{3}\\ \midrule
+    11 & Ícaro Lins Leitão da Cunha & Computação & Doutor & \multicolumn{1}{c}{11} & \multicolumn{1}{c}{5}\\ \midrule
+    12 & Igor Medeiros Vanderlei & Computação & Doutor & \multicolumn{1}{c}{19} & \multicolumn{1}{c}{14}\\ \midrule
+    13 & Jean Carlos Teixeira de Araújo & Computação & Doutor & \multicolumn{1}{c}{14} & \multicolumn{1}{c}{9}\\ \midrule
+    14 & Kádna Maria Alves Camboim Vale & Computação & Doutora & \multicolumn{1}{c}{11} & \multicolumn{1}{c}{9}\\ \midrule
+    15 & Luis Filipe Alves Pereira & Computação & Doutor & \multicolumn{1}{c}{9} & \multicolumn{1}{c}{6}\\ \midrule
+    16 & Marcius Petrúcio de Almeida Cavalcante & Matemática & Doutor & \multicolumn{1}{c}{10} & \multicolumn{1}{c}{10}\\ \midrule
+    17 & Maria Aparecida Amorim Sibaldo & Computação & Doutora & \multicolumn{1}{c}{12} & \multicolumn{1}{c}{12}\\ \midrule
+    18 & Mariel José Pimentel de Andrade & Física & Doutor & \multicolumn{1}{c}{17} & \multicolumn{1}{c}{9}\\ \midrule
+    19 & Mário Sansuke Maranhão Watanabe & Matemática & Doutor & \multicolumn{1}{c}{27} & \multicolumn{1}{c}{15}\\ \midrule
+    20 & Murilo Chavedar de Souza Araújo & Matemática & Mestre & \multicolumn{1}{c}{6} & \multicolumn{1}{c}{6}\\ \midrule
+    21 & Priscilla Kelly Machado Vieira & Computação & Doutora & \multicolumn{1}{c}{9} & \multicolumn{1}{c}{6}\\ \midrule
+    22 & Robson Santos de Oliveira & Letras & Doutor & \multicolumn{1}{c}{16} & \multicolumn{1}{c}{14}\\ \midrule
+    23 & Rodrigo Cardoso Amaral de Andrade & Computação & Doutor & \multicolumn{1}{c}{11} & \multicolumn{1}{c}{4}\\ \midrule
+    24 & Rodrigo Gusmão de Carvalho Rocha & Computação & Doutor & \multicolumn{1}{c}{16} & \multicolumn{1}{c}{11}\\ \midrule
+    25 & Romero Luiz Mendonça Sales Filho & Estatística & Doutor & \multicolumn{1}{c}{14} & \multicolumn{1}{c}{10}\\ \midrule
+    26 & Ryan Ribeiro de Azevêdo & Computação & Doutor & \multicolumn{1}{c}{16} & \multicolumn{1}{c}{11}\\ \midrule
+    27 & Sérgio Francisco Tavares de Oliveira Mendonça & Computação & Doutor & \multicolumn{1}{c}{21} & \multicolumn{1}{c}{12}\\ \midrule
+    28 & Thaís Alves Burity Rocha & Computação & Doutora & \multicolumn{1}{c}{9} & \multicolumn{1}{c}{6}\\ \midrule
+    29 & Tiago Buarque Assunção de Carvalho & Computação & Doutor & \multicolumn{1}{c}{14} & \multicolumn{1}{c}{9}\\ \midrule
+    30 & Wellington Romero Serafim Freire & Física & Doutor & \multicolumn{1}{c}{10} & \multicolumn{1}{c}{10}\\ 
+\bottomrule
+\end{longtable}
+\end{scriptsize}      
+\end{center}
 
-\section{Colegiado de Coordenação Didática}
-
-A coordenação didática de cada curso de graduação e de
-pós-graduação é exercida por um Colegiado de Coordenação Didática, conforme preconiza o Art. 16, do Estatuto da Unidade Acadêmica de Garanhuns, constituído
-pelo Coordenador do Curso, como presidente, pelo seu substituto eventual,  como
-vicepresidente, por docentes dos primeiros quatro períodos do curso (quatro
-representantes)  e do quinto ao último período do curso (cinco representantes), 
-que ministrem disciplinas no curso, por representante(s) do corpo discente de
-graduação e de pós-graduação,  escolhidos na forma da legislação vigente, com
-mandato de um (1) ano,  permitida uma recondução.
-
-São atribuições dos Colegiados de Coordenação
-Didática de Curso, conforme o Art. 6., do Regimento Geral da Unidade Acadêmica de Garanhuns: 
-a) elaborar modificações ao currículo do curso,  propondo-as
-ao Colegiado Geral de Coordenação Didática; b) propor ao Colegiado Geral de 
-Coordenação Didática o elenco de disciplinas optativas do curso; c) Promover, 
-através de propostas devidamente, justificadas, ao Colegiado Geral de
-Coordenação Didática,  a melhoria contínua do curso; d) propor ao Colegiado
-Geral de  Coordenação Didática modificações nos planos dos respectivos cursos; 
-e) propor, em cada período letivo, os planos de ensino das disciplinas do
-Currículo do Curso;  f) apreciar e deliberar sobre as solicitações acerca do 
-aproveitamento de estudos e adaptações, ouvidos os docentes da Unidade com 
-competência para julgar e emitir parecer sobre o conteúdo de tais solicitações; 
-g) aprovar o Regimento do Centro Acadêmico do Curso, submetendo-o depois à 
-homologação do Conselho Universitário; i) exercer as demais funções que lhe são,
-explícita ou implicitamente, deferidas em lei, no Estatuto e neste Regimento
-Geral;  j) deliberar sobre os casos omissos na esfera de sua competência.
-
-\section{Programa de Tutoria Institucional}
-
-O programa de tutoria foi iniciado na UFRPE-UAG com estudantes do primeiro período, estratificados em quatro grupos distintos orientados por quatro professores do curso. Uma das  características deste programa é manter uma postura de  acompanhamento e apoio direto ao aluno, entretanto, a participação do discente não é obrigatória, bem como seu ingresso em outros programas existentes na faculdade, como iniciação científica ou programas de extensão.
-
-Como resultado do programa espera-se que seja incrementada a qualidade de formação acadêmica dos graduandos, propiciando ao aluno oportunidades de participação em atividades científicas que transcendam a formação básica, além do auxílio em suas dificuldades a partir de estratégias de recuperação para alunos com problemas de aprendizagem. Estas ações visam combater as causas da evasão e da formação deficiente, contribuem para o desenvolvimento e modernização da própria IES.
-
-\subsection{Organização}
-
-Cabe a coordenação do curso o papel de organizar o programa, nomeando os tutores dentre seu corpo docente, para o período de um ano e estipulando a quantidade e relação nominal de alunos que cada tutor orientará.
-
-A coordenação do curso é responsável ainda, por estabelecer e divulgar os critérios básicos do programa de tutoria, comunicar aos docentes e discentes da graduação as ações de recuperação propostas pelos docentes tutores, e finalmente ao final de cada período avaliar o aproveitamento dos alunos.
-
-\subsection{Responsabilidades do Tutor}
-
-O tutor desempenha um papel importante no programa de tutoria. É sua atribuição auxiliar o tutorado em suas dificuldades durante o decorrer do curso, propor uma discussão sobre o plano de atividades dos tutorados sob sua responsabilidade direta, sem, entretanto ultrapassar os limites de autoridade do docente da disciplina e também ao final de cada período relatar as atividades do tutorado.
-
-\subsection{Responsabilidades do Tutorando}
-
-Como tutorandos entenda-se todos os alunos matriculados no curso e que por algum motivo necessitem de auxílio. Este deve participar do plano de atividades proposto pelo tutor, e, acompanhamento do seu desempenho escolar, através do histórico escolar e atividades complementares, incentivados a participara de atividades de extensão, monitoria, iniciação científica.
-
-O tutorando será incentivado, com anuência do titular da disciplina e auxílio de seu tutor, apresentar um seminário aberto à comunidade científica sobre os assuntos específicos que apresenta dificuldade.
-
-
-\section{Acompanhamento e avaliação do processo de ensino e aprendizagem}
-
-O resultado da avaliação do processo de ensino e aprendizagem do curso é um dos insumos para o planejamento pedagógico. Basicamente consiste nas lições aprendidas no semestre anterior, e que serão acrescidas à base de conhecimento do curso.
-
-Esta base de conhecimento é um dos principais ativos do curso e será mantida semestralmente ou sempre na ocorrência de evento que justifique alteração. É atribuição do Núcleo Docente Estruturante do curso a  avaliação do processo de ensino e aprendizagem.
-
-As lições aprendidas serão obtidas através da avaliação e análise do semestre anterior (fechamento do semestre) e da avaliação 
-discente das estratégias adotadas pelo curso. A avaliação discente deve ser feita formalmente (inclusive como forma de 
-registro) e por disciplina, de acordo com as normas institucionais. Estas avaliações servirão de insumos para a análise do semestre anterior, da qual participam o corpo docente e discente, sob a responsabilidade da coordenação do curso.
-
-Esta avaliação seguirá a resolução vigente que rege o sistema de avaliação das componentes curriculares na
-UFRPE, tendo como referência o perfil do egresso, os objetivos do curso e as competências profissionais orientadoras para a formação do Bacharel em Ciência da Computação. Esta avaliação será complementada pelas seguintes ações:
-
-\begin{itemize}
-\item Reuniões semestrais do Coordenador e Vice-Coordenador com os alunos, tentando identificar pontos positivos e negativos no processo ensino e de aprendizagem empregado pelos diversos professores, possivelmente utilizando questionários preenchidos pelos alunos e professores das disciplinas.
-\item Utilização dos resultados das avaliações docentes feitas pela UFRPE para identificar oportunidades de melhorias e soluções.
-\end{itemize}
-
-Esta análise é o produto do sistema de avaliação do processo de ensino e aprendizagem, que servirá de insumo para o 
-planejamento pedagógico do semestre posterior. Tal análise deverá ocorrer ao final de cada semestre.
+Todos os professores supracitados possuem regime de trabalho de 40 (quarenta) horas semanais com dedicação exclusiva.
 
 
-\section{Acompanhamento e avaliação do Projeto Pedagógico de Curso}
-
-
-O presente Projeto Pedagógico do Curso de Bacharelado em Ciência da Computação surge de uma demanda da comunidade e busca à formação e qualificação profissional, consequentemente estará em permanente avaliação e sujeito à revisão e aperfeiçoamento.
-
-Serão implantados mecanismos de avaliação docente com periodicidade semestral e de direcionamento do Colegiado do Curso, com periodicidade mínima mensal. Reuniões periódicas do Colegiado de Curso utilizarão os resultados das avaliações docentes para melhorar a alocação docente e treinamento dos profissionais envolvidos com o curso.
-
-Avaliações de periodicidade semestral serão realizadas e reuniões de direcionamento estratatégico anuais para adequação a futuras mudanças e anseios conforme Parecer CNE/CP n. 009/2001.
-
-Pretende-se realizar uma política de avaliação permanente em conjunto com a comunidade e, em especial com os grupos de trabalhos e fóruns de discussão permanentes, capazes de tornar públicas as interpretações do processo avaliativo, construindo parâmetros, critérios e padrões com o coletivo do Colegiado do Curso, região onde o curso se insere e da Universidade para que corresponda às políticas da SBC e às demandas da comunidade.
-
-O Curso de Bacharelado em Ciência da Computação  prevê um sistema de avaliação contínuo de modo que o colegiado tenha subsídios para  efetuar melhorias na qualidade do curso. Este sistema de avaliação será realizado de quatro formas distintas:
-
-\begin{enumerate}
-\item Reunião periódica dos professores do colegiado do curso pelo menos uma vez ao semestre para uma avaliação do curso e do semestre.
-\item Avaliação das disciplinas do curso, professores, coordenação e direção, por parte dos alunos, de acordo com normas institucionais próprias. As disciplinas obrigatórias poderão ser alteradas, e novas disciplinas optativas poderão ser propostas, a fim de realizar rápidas adequações ao mercado de trabalho, às orientações da Sociedade Brasileira de Computação, Ministério da Educação, ou ainda, às normas internas e institucionais, mediante discussão e aprovação pelo Núcleo Docente Estruturante, e, submetido à Coordenação do Colegiado Didático do curso, para validação.
-\item Preenchimento pelo aluno de questionário específico, após a realização de estágio supervisionado obrigatório, indicando como foi a sua inserção e adaptação na empresa e apresentando sugestões de melhorias na atividade de estágio e no curso.
-\item Avaliação do Curso e da Instituição pelos egressos com mais de um ano de graduação, através de formulário específico.
-\end{enumerate}
 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% chapter Atividades complementares
+% chapter INFRAESTRUTURA DO CURSO
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Atividades Complementares}
-As atividades complementares,  nos termos explicitados pelas respectivas
-Resoluções do CNE, são disciplinadas  e sistematizadas pela Resolução n.
-313/2003 do CEPE/UFRPE. O aluno deverá cursar  \textbf{obrigatoriamente um
-mínimo de 200 horas em Atividades Complementares Curriculares e um mínimo de  420 horas em
-disciplinas optativas}. Tais restrições visam que o aluno se integre  às atividades da UFRPE e comunidade e
-que também curse um mínimo de disciplinas  que compõem Áreas de Saber
-constituídas por disciplinas optativas,  respectivamente. As atividades
-complementares estão inseridas no eixo de  formação livre, cujos créditos podem
-ser obtidos em quaisquer atividades acadêmicas  curriculares. Além disso, a
-solicitação da creditação das atividades curriculares  complementares deverá ser
-feita pelo aluno por meio de requerimento documentado e  encaminhado ao
-Colegiado para proceder conforme Art. 37 da referida  Resolução do CEPE:
-
-Deferido o aproveitamento pelas instâncias competentes,  o Coordenado de Curso
-remeterá ao DRCA, para creditar no histórico escolar do  Aluno a carga horária e
-Créditos, correspondente ao aprovado, considerando a Quadro~\ref{tab:atividadescomplementares} reproduzida aqui.
-
-% Table generated by Excel2LaTeX from sheet 'Plan1'
-
-    \begin{longtable}{r|r|l|r|r}
-      \caption{Atividades Complementares}
-      \label{tab:atividadescomplementares}%
-      \\
-\hline
-    \textbf{No.} & \textbf{Código} & \textbf{Descrição} & \textbf{Horas/Aula} & \textbf{Créditos} \\
-    \hline
-%    \midrule
-    1     & 14001 & Monitoria I & 60    & 4 \\
-    \hline
-    2     & 14002 & Monitoria II & 60    & 4 \\
-    \hline
-    3     & 14003 & Programa Especial de Treinamento I & 60    & 4 \\
-    \hline
-    4     & 14004 & Programa Especial de Treinamento II & 60    & 4 \\
-    \hline
-    5     & 14005 & Projeto de Pesquisa I & 60    & 4 \\
-    \hline
-    6     & 14006 & Projeto de Pesquisa II & 60    & 4 \\
-    \hline
-    7     & 14007 & Vivência Profissional Complementar I & 60    & 4 \\
-    \hline
-    8     & 14008 & Vivência Profissional Complementar II & 60    & 4 \\
-    \hline
-    9     & 14009 & Programa de Extensão I & 60    & 4 \\
-    \hline
-    10    & 14010 & Programa de Extensão II & 60    & 4 \\
-    \hline
-    11    & 14011 & Programa de Alfabetização I & 60    & 4 \\
-    \hline
-    12    & 14012 & Programa de Alfabetização II & 60    & 4 \\
-    \hline
-    13    & 14013 & Projeto de Extensão I & 60    & 4 \\
-    \hline
-    14    & 14014 & Projeto de Extensão II & 60    & 4 \\
-    \hline
-    15    & 14015 & Discussões Temáticas I & 15    & 1 \\
-    \hline
-    16    & 14016 & Discussões Temáticas II & 15    & 1 \\
-    \hline
-    17    & 14017 & Tópicos Especiais I & 15    & 1 \\
-    \hline
-    18    & 14018 & Tópicos Especiais II & 30    & 2 \\
-    \hline
-    19    & 14019 & Prática Integrada I & 15    & 1 \\
-    \hline
-    20    & 14020 & Prática Integrada II & 30    & 2 \\
-    \hline
-    21    & 14021 & Cursos de Extensão I & 30    & 2 \\
-    \hline
-    22    & 14022 & Cursos de Extensão II & 60    & 4 \\
-    \hline
-    23    & 14023 & Evento de Extensão I & 30    & 2 \\
-    \hline
-    24    & 14024 & Evento de Extensão II & 60    & 4 \\
-    \hline
-    25    & 14025 & Publicação Técnico-Científica I & 30    & 2 \\
-    \hline
-    26    & 14026 & Publicação Técnico-Científica I & 60    & 4 \\
-    \hline
-    27    & 14027 & Produto de Extensão I & 30    & 2 \\
-    \hline
-    28    & 14028 & Produto de Extensão II & 60    & 4 \\
-    \hline
-    29    & 14029 & Prestação de Serviço I & 30    & 2 \\
-    \hline
-    30    & 14030 & Prestação de Serviço II & 60    & 4 \\
-    \hline
-%    \bottomrule
-    \end{longtable}%
 
 
-% ----------------------------------------------------------
-% Finaliza a parte no bookmark do PDF
-% para que se inicie o bookmark na raiz
-% e adiciona espaço de parte no Sumário
-% ----------------------------------------------------------
-\phantompart
 
-% ----------------------------------------------------------
-% ELEMENTOS PÓS-TEXTUAIS
-% ----------------------------------------------------------
-\postextual
-% ----------------------------------------------------------
+\chapter{INFRAESTRUTURA DO CURSO}
 
-% ----------------------------------------------------------
-% Referências bibliográficas
-% ----------------------------------------------------------
-%\bibliography{abntex2-modelo-references}
+O curso dispõe de basicamente toda a infraestrutura que a universidade oferece, como salas de aula, laboratórios de uso geral e de uso específico, biblioteca, restaurante/cantina, quadra poliesportiva, praças, entre outros. 
+
+\section{Laboratórios}
+
+Para a infraestrutura de informática, no que diz respeito aos laboratórios, a UAG oferece bons laboratório de software com conexão com a Internet (RNP) na qual os alunos possuem acesso no mínimo aos dois ambientes computacionais e de redes mais comuns atualmente: Windows e UNIX, como uma distribuição Linux, rodando em dual-boot. São 8 laboratórios de ensino com computadores e quadro com capacidade para 40 (quarenta) computadores, exclusivos para os cursos de computação.
+
+A rede interna da UAG possui um backbone de 1 Gbps, cujo acesso à Internet é realizado através de um link de 100 Mbps fornecido pela Rede Nacional de Pesquisa (RNP). A UAG ainda disponibiliza, em boa parte do campus, acesso Wi-Fi para docentes, discentes e colaboradores, sendo as credenciais de acesso fornecidas pelo Sistema de Informações e Gestão Acadêmica (SIGA). Outro grande benefício da rede Wi-Fi da UAG é que ela faz parte da rede eduroam (education roaming), cujo principal benefício é a mobilidade. Ela permite o acesso sem fio à Internet localmente e em milhares de pontos de acesso no Brasil e no mundo com a utilização de uma mesma credencial.
+
+Além disso, um laboratório de física com  instrumental necessário para matérias como arquitetura de computadores, circuitos digitais e automação: osciloscópios e analisadores digitais, kits de programação e simulação de sistemas de automação e de circuitos digitais. Destacamos que a proposta do Programa de Pós-Graduação em Ciência da Computação conta com 2 (dois) laboratórios exclusivos para os alunos da pós-graduação, como também conta com mais 2 (dois) laboratórios de uso compartilhado entre discentes de graduação e pós-graduação.
+
+Num cenário de inovação e experimentação, o curso dispõe de duas iniciativas, a primeira diz respeito ao BCC Coworking\footnote{\url{http://bcc.uag.ufrpe.br/coworking}}, que é um Laboratório para Pesquisa e Desenvolvimento, com o propósito de servir como um local propício para o desenvolvimento de projetos reais, servindo até como fomento, com supervisão de profissionais da área, garantindo o conhecimento e a experiência técnica, através do uso de práticas e ferramentas do mercado de trabalho. 
+
+O público alvo são os alunos que buscam a participação em projetos, assim como professores com projetos em execução (Pesquisa/Ensino/Extensão) com foco em aplicação comercial e/ou P\&D. Os tipos de atuação nesse laboratório podem ser diversos e as atividades podem ser formalizadas de maneiras diversas também, como por exemplo carga horária complementar em Pesquisa, Ensino, Extensão, na realização de ESO e TCC.
+
+A segunda iniciativa no sentido de inovação é o Laboratório Multidisciplinar de Tecnologias Sociais - LMTS\footnote{\url{http://lmts.uag.ufrpe.br}}, que é um espaço permanente de ensino, pesquisa, inovação tecnológica, extensão e de colaboração com a gestão institucional, contando com colaboradores da área técnica, mas também das demais áreas citadas, sejam eles, professores, técnicos ou estudantes. Atualmente, é composto basicamente por discentes de graduação orientados por projetos de pesquisa e extensão, porém tem o desejo de receber alunos de pós-graduação que pudessem exercer a ciência com um nível de qualidade ainda maior. É um espaço que agrega inteligência coletiva e as múltiplas iniciativas em curso ou idealizadas em prol especificamente para o desenvolvimento de softwares livres ou públicos para atender as demandas da UFRPE e da sociedade em geral. Através desse laboratório é possível colocar em prática experimentos nos quesitos relacionados ao desenvolvimento de sistemas computacionais nas linhas de pesquisas propostas no projeto.
+
+Além disso, temos ainda o laboratório temático do UNAME Research Group, composto por duas infraestruturas de sistemas distribuídos. A primeira se trata de um cluster composto por 6 computadores gerenciados pela plataforma Rocks Cluster, que é uma distribuição de cluster Linux de código aberto que permite que os usuários finais criem facilmente clusters computacionais. A segunda infraestrutura se trata de uma nuvem privada gerenciada pela plataforma OpenStack, que é um conjunto de projetos de software de código aberto usados para configurar e operar infraestrutura de computação e armazenamento em nuvem. Essa mesma infraestrutura de nuvem conta com um dispositivo de armazenamento de rede NAS, configurado em RAID, montado a partir de uma placa de expansão Orange Pi Win Plus e dois HDs de 1TB, cada. As duas infra-estruturas são usadas principalmente em experimentos de avaliação de desempenho, de planejamento de capacidade, de análise de disponibilidade e de investigação dos efeitos do envelhecimento de software. 
+
+\section{Biblioteca}
+
+A biblioteca da UFAPE tem sua origem em setembro de 2005, com a criação própria unidade, primeira extensão universitária instalada no País, dentro do programa de expansão do sistema federal de ensino superior. Pesquisar e registrar sua memória constitui importante tarefa para os que nela trabalham e representa um legado de episódios e contextos preservados para as gerações futuras.
+
+O acervo da biblioteca recebe tratamento técnico (classificação, catalogação, indexação, tombamento, etc.) funcionando, de segunda a sexta-feira, das 08:00 às 21:00. Ocupa espaço físico equivalente a 08 salas de aulas mais dois corredores, distribuídos em 03 salas para o acervo geral; 01 sala para Literatura Cinzenta, Obras de Referência e Consulta Local; 01 sala para processamento técnico; 01 sala para Administração e Serviço de referência; 01 corredor para circulação de materiais com 02 guichês de atendimento; 02 totens de Consulta ao Acervo; 01 sala de estudos e 01 sala para o laboratório de informática (em processo de instalação).
+
+Administrativamente, é subordinada à Direção Administrativa da UAG e tecnicamente ao SIBI-UFRPE. Seu acervo direciona-se a atender aos Cursos ofertados na UAG, tais como, Medicina Veterinária, Agronomia, Zootecnia, Pedagogia, Engenharia de Alimentos, Letras e Ciência da Computação. Oferece como serviços: empréstimo domiciliar; renovação e reservas on-line; catalogação na fonte; normalização; Comut; portal periódicos; multa solidária; visitas orientadas; aulas, palestras e cursos; terminais de consulta ao acervo e consulta local. 
+
+O recursos disponíveis na biblioteca central (Prof. Mario Coelho de Andrade Lima) estão listados abaixo:
+
+\begin{itemize}
+    \item Número de Títulos do Acervo de Periódicos Impressos: 1.941
+    \item Número de Títulos do Acervo de Livros Impressos: 48.227
+    \item Número de Títulos de outros materiais: 1.247
+    \item Número de Títulos do Acervo de Livro Eletrônico: 223.350
+    \item Número de títulos na área de Educação: 8.610
+    \item Possui Sinalização Tátil: Sim
+    \item Possui Rampa de Acesso com corrimão: Sim
+    \item Possui Entrada/Saída com Dimensionamento: Sim
+    \item Possui Sinalização Sonora: Não
+    \item Possui Sinalização Visual: Sim
+    \item Possui Banheiros Adaptados: Sim
+    \item Possui Espaço de Atendimento Adaptado: Sim
+    \item Possui Mobiliário Adaptado: Sim
+    \item Possui Acervo em Formato Especial (braile/sonoro): Sim
+    \item Possui Sítios Desenvolvidos para Utilização dos Serviços Oferecidos: Sim
+    \item Participa do Portal Capes de Periódicos: Sim
+    \item Assina Bases de Dados: Sim
+    \item Possui Repositório Institucional: Sim
+    \item Utiliza Redes Sociais: Sim
+    \item Oferece Serviços pela Internet: Sim
+\end{itemize}
+
+Já na biblioteca da Unidade Acadêmica, os recursos disponíveis estão listados abaixo:
+
+\begin{itemize}
+    \item Número de Títulos do Acervo de Livros Impressos: 4.235
+    \item Número de Títulos de outros materiais: 238
+    \item Número de Títulos do Acervo de Livro Eletrônico: 223.350
+    \item Número de títulos na área de Educação: 2633
+    \item Possui Rampa de Acesso com corrimão: Sim
+    \item Possui Entrada/Saída com Dimensionamento: Sim
+    \item Possui Sinalização Visual: Sim
+    \item Possui Banheiros Adaptados: Sim
+    \item Possui Mobiliário Adaptado: Não
+    \item Possui Sítios Desenvolvidos para Utilização dos Serviços Oferecidos: Sim
+    \item Participa do Portal Capes de Periódicos: Sim
+    \item Assina Bases de Dados: Sim
+    \item Possui Repositório Institucional: Sim
+    \item Utiliza Redes Sociais: Sim
+    \item Oferece Serviços pela Internet: Sim
+\end{itemize}
+
+Em outras bibliotecas, como na Unidade Acadêmica de Serra Talhada, no Colégio Dom Agostinho Ikas ou Unidade Acadêmica do Cabo de Santo Agostinho, os recursos são listados abaixo:
+
+\begin{itemize}
+    \item Acervo total geral das Bibliotecas: 11.902
+    \item Empréstimo Domiciliar
+    \item Empréstimo Especial
+    \item Empréstimo Interbibliotecas
+    \item Reservas on-line
+    \item Renovações on-line
+    \item Catalogação na Fonte
+    \item Normalização
+    \item COMUT
+    \item Reservas de espaços
+    \item BDTD da UFRPE\footnote{\url{www.bdtd.ufrpe.br}}
+    \item Portal Periódicos
+    \item Portal de Periódicos da UFRPE\footnote{\url{www.journals.ufrpe.br}}
+    \item Visitas Orientadas
+    \item Núcleo do Conhecimento Prof. João Baptista (memória UFRPE)
+    \item Coleção de Livros Eletrônicos Ebrary
+    \item Treinamentos e cursos
+\end{itemize}
+
+Acrescenta-se ainda que a Unidade Acadêmica de Garanhuns está recebendo um novo prédio para Biblioteca e salas de estudos, um prédio maior e bem completo, projetado exclusivamente para ser uma Biblioteca, com previsão de conclusão para 2020.
+
+
 \chapter*[Referências]{Referências}
 \addcontentsline{toc}{chapter}{Referências}
 
